@@ -1,0 +1,98 @@
+Virtual User Script started at: 08.12.2024 4:03:52
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2020.0.0 for Windows 10; build 793 (ноя 27 2019 19:51:20)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\Алексей\Documents\VuGen\Scripts\TestHomework\05_DeleteBooking\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(7): Notify: Transaction "05_DeleteBooking" started.
+../Common/openStartPage.h(3): Notify: Transaction "Open start page" started.
+../Common/openStartPage.h(5): web_add_auto_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
+../Common/openStartPage.h(5): web_add_auto_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
+../Common/openStartPage.h(8): web_add_auto_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
+../Common/openStartPage.h(8): web_add_auto_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
+../Common/openStartPage.h(11): web_add_auto_header("Priority") started  	[MsgId: MMSG-26355]
+../Common/openStartPage.h(11): web_add_auto_header("Priority") was successful  	[MsgId: MMSG-26392]
+../Common/openStartPage.h(14): web_add_auto_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
+../Common/openStartPage.h(14): web_add_auto_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
+../Common/openStartPage.h(17): web_add_auto_header("DNT") started  	[MsgId: MMSG-26355]
+../Common/openStartPage.h(17): web_add_auto_header("DNT") was successful  	[MsgId: MMSG-26392]
+../Common/openStartPage.h(20): web_add_auto_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
+../Common/openStartPage.h(20): web_add_auto_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
+../Common/openStartPage.h(23): web_add_auto_header("Sec-GPC") started  	[MsgId: MMSG-26355]
+../Common/openStartPage.h(23): web_add_auto_header("Sec-GPC") was successful  	[MsgId: MMSG-26392]
+../Common/openStartPage.h(26): web_add_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+../Common/openStartPage.h(26): web_add_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+../Common/openStartPage.h(29): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+../Common/openStartPage.h(29): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+../Common/openStartPage.h(39): web_reg_find started  	[MsgId: MMSG-26355]
+../Common/openStartPage.h(39): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+../Common/openStartPage.h(41): web_url("WebTours") started  	[MsgId: MMSG-26355]
+../Common/openStartPage.h(41): Redirecting "http://127.0.0.1:8090/WebTours" (redirection depth is 0)  	[MsgId: MMSG-26694]
+../Common/openStartPage.h(41): To location "http://127.0.0.1:8090/WebTours/"  	[MsgId: MMSG-26693]
+../Common/openStartPage.h(41): Detected non-resource "http://127.0.0.1:8090/WebTours/header.html" in "http://127.0.0.1:8090/WebTours/"  	[MsgId: MMSG-26574]
+../Common/openStartPage.h(41): Detected non-resource "http://127.0.0.1:8090/WebTours/welcome.pl?signOff=true" in "http://127.0.0.1:8090/WebTours/"  	[MsgId: MMSG-26574]
+../Common/openStartPage.h(41): Found resource "http://127.0.0.1:8090/WebTours/images/jmeter_logo.png" in HTML "http://127.0.0.1:8090/WebTours/header.html"  	[MsgId: MMSG-26659]
+../Common/openStartPage.h(41): Found resource "http://127.0.0.1:8090/WebTours/images/webtours.png" in HTML "http://127.0.0.1:8090/WebTours/header.html"  	[MsgId: MMSG-26659]
+../Common/openStartPage.h(41): Found resource "http://127.0.0.1:8090/WebTours/images/in_home.gif" in HTML "http://127.0.0.1:8090/WebTours/header.html"  	[MsgId: MMSG-26659]
+../Common/openStartPage.h(41): Detected non-resource "http://127.0.0.1:8090/WebTours/nav.pl?in=home" in "http://127.0.0.1:8090/WebTours/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+../Common/openStartPage.h(41): Detected non-resource "http://127.0.0.1:8090/WebTours/home.html" in "http://127.0.0.1:8090/WebTours/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+../Common/openStartPage.h(41): Found resource "http://127.0.0.1:8090/WebTours/images/fonJM.png" in HTML "http://127.0.0.1:8090/WebTours/nav.pl?in=home"  	[MsgId: MMSG-26659]
+../Common/openStartPage.h(41): Found resource "http://127.0.0.1:8090/WebTours/images/mer_login.gif" in HTML "http://127.0.0.1:8090/WebTours/nav.pl?in=home"  	[MsgId: MMSG-26659]
+../Common/openStartPage.h(41): Registered web_reg_find successful for "Text=Welcome to the Web Tours site." (count=1)  	[MsgId: MMSG-26364]
+../Common/openStartPage.h(41): web_url("WebTours") was successful, 40139 body bytes, 2117 header bytes  	[MsgId: MMSG-26386]
+../Common/openStartPage.h(51): Notify: Transaction "Open start page" ended with a "Pass" status (Duration: 0.7919 Wasted Time: 0.0743).
+../Common/login.h(3): Notify: Transaction "Login" started.
+../Common/login.h(5): web_set_sockets_option started  	[MsgId: MMSG-26355]
+../Common/login.h(5): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+../Common/login.h(7): web_remove_auto_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
+../Common/login.h(7): Previous automatically added web header for "Sec-Fetch-User" removed  	[MsgId: MMSG-26587]
+../Common/login.h(7): web_remove/revert_auto_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
+../Common/login.h(9): web_reg_find started  	[MsgId: MMSG-26355]
+../Common/login.h(9): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+../Common/login.h(11): web_submit_data("login.pl") started  	[MsgId: MMSG-26355]
+../Common/login.h(11): Detected non-resource "http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=home" in "http://127.0.0.1:8090/WebTours/login.pl"  	[MsgId: MMSG-26574]
+../Common/login.h(11): Detected non-resource "http://127.0.0.1:8090/WebTours/login.pl?intro=true" in "http://127.0.0.1:8090/WebTours/login.pl"  	[MsgId: MMSG-26574]
+../Common/login.h(11): Resource "http://127.0.0.1:8090/WebTours/images/fonJM.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+../Common/login.h(11): Found resource "http://127.0.0.1:8090/WebTours/images/flights.gif" in HTML "http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+../Common/login.h(11): Found resource "http://127.0.0.1:8090/WebTours/images/itinerary.gif" in HTML "http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+../Common/login.h(11): Resource "http://127.0.0.1:8090/WebTours/images/in_home.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+../Common/login.h(11): Found resource "http://127.0.0.1:8090/WebTours/images/signoff.gif" in HTML "http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+../Common/login.h(11): Registered web_reg_find successful for "Text=Welcome, <b>rmqofA</b>, to the Web Tours reservation pages." (count=1)  	[MsgId: MMSG-26364]
+../Common/login.h(11): web_submit_data("login.pl") was successful, 5037 body bytes, 1339 header bytes  	[MsgId: MMSG-26386]
+../Common/login.h(28): Notify: Transaction "Login" ended with a "Pass" status (Duration: 0.5142 Wasted Time: 0.0050).
+../Common/getItineraryList.h(3): Notify: Transaction "Get itinerary list" started.
+../Common/getItineraryList.h(5): web_reg_save_param_regexp started  	[MsgId: MMSG-26355]
+../Common/getItineraryList.h(5): Registering web_reg_save_param_regexp was successful  	[MsgId: MMSG-26390]
+../Common/getItineraryList.h(11): web_reg_save_param started  	[MsgId: MMSG-26355]
+../Common/getItineraryList.h(11): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+../Common/getItineraryList.h(17): web_reg_find started  	[MsgId: MMSG-26355]
+../Common/getItineraryList.h(17): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+../Common/getItineraryList.h(19): web_url("welcome.pl") started  	[MsgId: MMSG-26355]
+../Common/getItineraryList.h(19): Detected non-resource "http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=itinerary" in "http://127.0.0.1:8090/WebTours/welcome.pl?page=itinerary"  	[MsgId: MMSG-26574]
+../Common/getItineraryList.h(19): Detected non-resource "http://127.0.0.1:8090/WebTours/itinerary.pl" in "http://127.0.0.1:8090/WebTours/welcome.pl?page=itinerary"  	[MsgId: MMSG-26574]
+../Common/getItineraryList.h(19): Resource "http://127.0.0.1:8090/WebTours/images/fonJM.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+../Common/getItineraryList.h(19): Resource "http://127.0.0.1:8090/WebTours/images/flights.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+../Common/getItineraryList.h(19): Found resource "http://127.0.0.1:8090/WebTours/images/in_itinerary.gif" in HTML "http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=itinerary"  	[MsgId: MMSG-26659]
+../Common/getItineraryList.h(19): Found resource "http://127.0.0.1:8090/WebTours/images/home.gif" in HTML "http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=itinerary"  	[MsgId: MMSG-26659]
+../Common/getItineraryList.h(19): Resource "http://127.0.0.1:8090/WebTours/images/signoff.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+../Common/getItineraryList.h(19): Error -35049: No match found for the requested parameter "flightIDs". Check whether the requested regular expression exists in the response data  	[MsgId: MERR-35049]
+../Common/getItineraryList.h(19): Error -26377: No match found for the requested parameter "c_cgifields". Either the specified boundaries were not found in the response or the matched text is longer than current max html parameter size of 256 bytes. The total length of the response is 4315 bytes. You can use "web_set_max_html_param_len" to increase the max parameter size.  	[MsgId: MERR-26377]
+../Common/getItineraryList.h(19): Registered web_reg_find successful for "Text=<title>Flights List</title>" (count=1)  	[MsgId: MMSG-26364]
+../Common/getItineraryList.h(19): web_url("welcome.pl") highest severity level was "ERROR", 4315 body bytes, 1008 header bytes  	[MsgId: MMSG-26388]
+../Common/getItineraryList.h(19): Notify: Transaction "Get itinerary list" ended with a "Fail" status (Duration: 0.4884 Wasted Time: 0.0060).
+../Common/getItineraryList.h(19): Notify: Transaction "Get itinerary list" has 1 error message(s).
+../Common/getItineraryList.h(19): Notify: The 1st error message associated with transaction "Get itinerary list" is "Error -26377: No match found for the requested parameter "c_cgifields". Either the specified boundaries were not found in the response or the matched text is longer than current max html parameter size of 256 bytes. The total length of the response is 4315 bytes. You can use "web_set_max_html_param_len" to increase the max parameter size."
+../Common/getItineraryList.h(19): Notify: Transaction "05_DeleteBooking" ended with a "Fail" status (Duration: 1.8438 Wasted Time: 0.0853).
+../Common/getItineraryList.h(19): Notify: Transaction "05_DeleteBooking" has 1 error message(s).
+../Common/getItineraryList.h(19): Notify: The 1st error message associated with transaction "05_DeleteBooking" is "Error -26377: No match found for the requested parameter "c_cgifields". Either the specified boundaries were not found in the response or the matched text is longer than current max html parameter size of 256 bytes. The total length of the response is 4315 bytes. You can use "web_set_max_html_param_len" to increase the max parameter size."
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

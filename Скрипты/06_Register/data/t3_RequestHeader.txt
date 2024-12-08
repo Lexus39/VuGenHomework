@@ -1,0 +1,20 @@
+POST http://127.0.0.1:8090/WebTours/login.pl HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate, zstd
+Content-Type: application/x-www-form-urlencoded
+Origin: http://127.0.0.1:8090
+DNT: 1
+Sec-GPC: 1
+Referer: http://127.0.0.1:8090/WebTours/login.pl?username=&password=&getInfo=true
+Cookie: MSO=SID&1733453728&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: frame
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+Priority: u=4
+Host: 127.0.0.1:8090
+Content-Length: 144
+

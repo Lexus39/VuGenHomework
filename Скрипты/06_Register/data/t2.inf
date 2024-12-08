@@ -1,0 +1,15 @@
+[t2]
+FileName1=t2.html
+URL1=http://127.0.0.1:8090/WebTours/login.pl?username=&password=&getInfo=true
+Total=3
+RequestHeaderFile=t2_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t2_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_2.xml
+FileName2=t2_profileValidate.html
+URL2=http://127.0.0.1:8090/WebTours/profileValidate.js
+FileName3=t2_button_next.gif
+URL3=http://127.0.0.1:8090/WebTours/images/button_next.gif
+[ProtocolInfo]
+ProtocolId=QTWeb

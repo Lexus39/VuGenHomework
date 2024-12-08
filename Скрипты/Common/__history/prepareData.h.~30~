@@ -1,0 +1,61 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+
+#define LOGIN_LENGTH 5
+#define PASSWORD_LENGTH 5
+#define NAME_LENGTH 5
+#define STREET_LENGTH 5
+#define ZIP_CODE_LENGTH 6
+
+void prepareData(int userCount, char[] fileName){
+	FILE* file;
+	int i;
+	srand(time(NULL));
+
+	file = fopen("..\\Data\\users1.dat", "w");
+	if (file == 0) {
+		perror("Ошибка открытия файла");
+		return;
+	}
+
+    for (i = 0; i < userCount; i++) {
+		generate_user_data(file);
+    }
+
+    fclose(file);
+}
+
+void generate_random_string(char *str, int length) {
+	int i;
+    const char charset[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    for (i = 0; i < length; i++) {
+        int key = rand() % (int)(sizeof(charset) - 1);
+        str[i] = charset[key];
+    }
+	str[length] = '\0';
+}
+
+void generate_user_data(FILE *file) {
+	char login[LOGIN_LENGTH + 1];
+	char password[PASSWORD_LENGTH + 1];
+	char firstName[NAME_LENGTH + 1];
+	char lastName[NAME_LENGTH + 1];
+    char street[STREET_LENGTH + 1];
+    char zip_code[ZIP_CODE_LENGTH + 1];
+
+	generate_random_string(login, LOGIN_LENGTH);
+	generate_random_string(password, PASSWORD_LENGTH);
+	generate_random_string(firstName, NAME_LENGTH);
+	generate_random_string(lastName, NAME_LENGTH);
+	generate_random_string(street, STREET_LENGTH);
+    snprintf(zip_code, ZIP_CODE_LENGTH + 1, "%06d", rand() % 1000000);
+
+	fprintf(file, "%s,", login);
+	fprintf(file, "%s,", password);
+	fprintf(file, "%s,", firstName);
+	fprintf(file, "%s,", lastName);
+	fprintf(file, "%s,", street);
+	fprintf(file, "%s\n", zip_code);
+}
