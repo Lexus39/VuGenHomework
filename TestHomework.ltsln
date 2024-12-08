@@ -1,0 +1,96 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+# SharpDevelop 4.1.3.0-trunk
+Project("71C92FC6-5BF4-440E-B3FA-B761CD7A309D") = "05_DeleteBooking", "..\..\TestHomework\05_DeleteBooking\05_DeleteBooking.usr", "71C92FC6-5BF4-440E-B3FA-B761CD7A309D"
+	ProjectSection(CustomLoading) = Data
+		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkM6XFVzZXJzXNCQ0LvQtdC60YHQtdC5XERvY3VtZW50c1xWdUdlblxTY3JpcHRzXFRlc3RIb21ld29ya1wwNV9EZWxldGVCb29raW5nXDA1X0RlbGV0ZUJvb2tpbmcudXNyPC9Mb2FkRGF0YT4NCiAgPEZpbGVzPg0KICAgIDxGaWxlPjA1X0RlbGV0ZUJvb2tpbmcudXNyPC9GaWxlPg0KICA8L0ZpbGVzPg0KICA8TW9kaWZpZWQ+MjAyNC0xMi0wM1QxNjo0ODoxMS42MDE0MTM0KzAzOjAwPC9Nb2RpZmllZD4NCjwvUGVyc2lzdGVuY2VUb2tlbj4_
+	EndProjectSection
+	ProjectSection(ExpandInVugen) = Data
+		Value = False
+	EndProjectSection
+EndProject
+Project("DDAEFC9E-EE4B-4007-A2D2-EF5BCC54958F") = "01_Login", "..\..\TestHomework\01_Login\01_Login.usr", "DDAEFC9E-EE4B-4007-A2D2-EF5BCC54958F"
+	ProjectSection(CustomLoading) = Data
+		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkM6XFVzZXJzXNCQ0LvQtdC60YHQtdC5XERvY3VtZW50c1xWdUdlblxTY3JpcHRzXFRlc3RIb21ld29ya1wwMV9Mb2dpblwwMV9Mb2dpbi51c3I8L0xvYWREYXRhPg0KICA8RmlsZXM+DQogICAgPEZpbGU+QzpcVXNlcnNc0JDQu9C10LrRgdC10LlcRG9jdW1lbnRzXFZ1R2VuXFNjcmlwdHNcVGVzdEhvbWV3b3JrXDAxX0xvZ2luXDAxX0xvZ2luLnVzcjwvRmlsZT4NCiAgPC9GaWxlcz4NCiAgPE1vZGlmaWVkPjIwMjQtMTItMDNUMTQ6MjM6MTkuODMwMDA2NSswMzowMDwvTW9kaWZpZWQ+DQo8L1BlcnNpc3RlbmNlVG9rZW4+
+	EndProjectSection
+	ProjectSection(ExpandInVugen) = Data
+		Value = False
+	EndProjectSection
+EndProject
+Project("7D165164-05A6-49D3-B517-02F6EDFA232F") = "02_SearchFlight", "..\..\TestHomework\02_SearchFlight\02_SearchFlight.usr", "7D165164-05A6-49D3-B517-02F6EDFA232F"
+	ProjectSection(CustomLoading) = Data
+		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkM6XFVzZXJzXNCQ0LvQtdC60YHQtdC5XERvY3VtZW50c1xWdUdlblxTY3JpcHRzXFRlc3RIb21ld29ya1wwMl9TZWFyY2hGbGlnaHRcMDJfU2VhcmNoRmxpZ2h0LnVzcjwvTG9hZERhdGE+DQogIDxGaWxlcz4NCiAgICA8RmlsZT5DOlxVc2Vyc1zQkNC70LXQutGB0LXQuVxEb2N1bWVudHNcVnVHZW5cU2NyaXB0c1xUZXN0SG9tZXdvcmtcMDJfU2VhcmNoRmxpZ2h0XDAyX1NlYXJjaEZsaWdodC51c3I8L0ZpbGU+DQogIDwvRmlsZXM+DQogIDxNb2RpZmllZD4yMDI0LTEyLTAzVDE2OjQwOjA1Ljc2MjA3NDErMDM6MDA8L01vZGlmaWVkPg0KPC9QZXJzaXN0ZW5jZVRva2VuPg__
+	EndProjectSection
+	ProjectSection(ExpandInVugen) = Data
+		Value = False
+	EndProjectSection
+EndProject
+Project("B7EA07FA-284E-4F6E-AAA6-7D3309D98FF1") = "03_BuyTicket", "..\..\TestHomework\03_BuyTicket\03_BuyTicket.usr", "B7EA07FA-284E-4F6E-AAA6-7D3309D98FF1"
+	ProjectSection(CustomLoading) = Data
+		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkM6XFVzZXJzXNCQ0LvQtdC60YHQtdC5XERvY3VtZW50c1xWdUdlblxTY3JpcHRzXFRlc3RIb21ld29ya1wwM19CdXlUaWNrZXRcMDNfQnV5VGlja2V0LnVzcjwvTG9hZERhdGE+DQogIDxGaWxlcz4NCiAgICA8RmlsZT5DOlxVc2Vyc1zQkNC70LXQutGB0LXQuVxEb2N1bWVudHNcVnVHZW5cU2NyaXB0c1xUZXN0SG9tZXdvcmtcMDNfQnV5VGlja2V0XDAzX0J1eVRpY2tldC51c3I8L0ZpbGU+DQogIDwvRmlsZXM+DQogIDxNb2RpZmllZD4yMDI0LTEyLTAzVDE2OjQxOjA5LjUxMjA0NzQrMDM6MDA8L01vZGlmaWVkPg0KPC9QZXJzaXN0ZW5jZVRva2VuPg__
+	EndProjectSection
+	ProjectSection(ExpandInVugen) = Data
+		Value = False
+	EndProjectSection
+EndProject
+Project("63B06975-A82C-49B2-8433-A012B86C2C11") = "04_GetItineraryList", "..\..\TestHomework\04_GetItineraryList\04_GetItineraryList.usr", "63B06975-A82C-49B2-8433-A012B86C2C11"
+	ProjectSection(CustomLoading) = Data
+		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkM6XFVzZXJzXNCQ0LvQtdC60YHQtdC5XERvY3VtZW50c1xWdUdlblxTY3JpcHRzXFRlc3RIb21ld29ya1wwNF9HZXRJdGluZXJhcnlMaXN0XDA0X0dldEl0aW5lcmFyeUxpc3QudXNyPC9Mb2FkRGF0YT4NCiAgPEZpbGVzPg0KICAgIDxGaWxlPkM6XFVzZXJzXNCQ0LvQtdC60YHQtdC5XERvY3VtZW50c1xWdUdlblxTY3JpcHRzXFRlc3RIb21ld29ya1wwNF9HZXRJdGluZXJhcnlMaXN0XDA0X0dldEl0aW5lcmFyeUxpc3QudXNyPC9GaWxlPg0KICA8L0ZpbGVzPg0KICA8TW9kaWZpZWQ+MjAyNC0xMi0wM1QxNjo0Mzo1Ni43OTA3NjY3KzAzOjAwPC9Nb2RpZmllZD4NCjwvUGVyc2lzdGVuY2VUb2tlbj4_
+	EndProjectSection
+	ProjectSection(ExpandInVugen) = Data
+		Value = False
+	EndProjectSection
+EndProject
+Project("B091C97A-91B9-4A71-BF98-A2AC7765430C") = "06_Register", "..\..\TestHomework\06_Register\06_Register.usr", "B091C97A-91B9-4A71-BF98-A2AC7765430C"
+	ProjectSection(CustomLoading) = Data
+		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkM6XFVzZXJzXNCQ0LvQtdC60YHQtdC5XERvY3VtZW50c1xWdUdlblxTY3JpcHRzXFRlc3RIb21ld29ya1wwNl9SZWdpc3RlclwwNl9SZWdpc3Rlci51c3I8L0xvYWREYXRhPg0KICA8RmlsZXM+DQogICAgPEZpbGU+QzpcVXNlcnNc0JDQu9C10LrRgdC10LlcRG9jdW1lbnRzXFZ1R2VuXFNjcmlwdHNcVGVzdEhvbWV3b3JrXDA2X1JlZ2lzdGVyXDA2X1JlZ2lzdGVyLnVzcjwvRmlsZT4NCiAgPC9GaWxlcz4NCiAgPE1vZGlmaWVkPjIwMjQtMTItMDNUMTY6NDY6NDAuMzA0ODgxOCswMzowMDwvTW9kaWZpZWQ+DQo8L1BlcnNpc3RlbmNlVG9rZW4+
+	EndProjectSection
+	ProjectSection(ExpandInVugen) = Data
+		Value = False
+	EndProjectSection
+EndProject
+Project("6FA8B4AA-6CA4-405C-AF14-BEB38D4254B3") = "07_PrepareUserData", "..\..\TestHomework\07_PrepareUserData\07_PrepareUserData.usr", "6FA8B4AA-6CA4-405C-AF14-BEB38D4254B3"
+	ProjectSection(CustomLoading) = Data
+		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkM6XFVzZXJzXNCQ0LvQtdC60YHQtdC5XERvY3VtZW50c1xWdUdlblxTY3JpcHRzXFRlc3RIb21ld29ya1wwN19QcmVwYXJlVXNlckRhdGFcMDdfUHJlcGFyZVVzZXJEYXRhLnVzcjwvTG9hZERhdGE+DQogIDxGaWxlcz4NCiAgICA8RmlsZT5DOlxVc2Vyc1zQkNC70LXQutGB0LXQuVxEb2N1bWVudHNcVnVHZW5cU2NyaXB0c1xUZXN0SG9tZXdvcmtcMDdfUHJlcGFyZVVzZXJEYXRhXDA3X1ByZXBhcmVVc2VyRGF0YS51c3I8L0ZpbGU+DQogIDwvRmlsZXM+DQogIDxNb2RpZmllZD4yMDI0LTEyLTA2VDA3OjI1OjI3Ljg2MDQ2NzQrMDM6MDA8L01vZGlmaWVkPg0KPC9QZXJzaXN0ZW5jZVRva2VuPg__
+	EndProjectSection
+	ProjectSection(ExpandInVugen) = Data
+		Value = False
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		71C92FC6-5BF4-440E-B3FA-B761CD7A309D.Debug|Any CPU.Build.0 = Debug|Any CPU
+		71C92FC6-5BF4-440E-B3FA-B761CD7A309D.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		71C92FC6-5BF4-440E-B3FA-B761CD7A309D.Release|Any CPU.Build.0 = Release|Any CPU
+		71C92FC6-5BF4-440E-B3FA-B761CD7A309D.Release|Any CPU.ActiveCfg = Release|Any CPU
+		DDAEFC9E-EE4B-4007-A2D2-EF5BCC54958F.Debug|Any CPU.Build.0 = Debug|Any CPU
+		DDAEFC9E-EE4B-4007-A2D2-EF5BCC54958F.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		DDAEFC9E-EE4B-4007-A2D2-EF5BCC54958F.Release|Any CPU.Build.0 = Release|Any CPU
+		DDAEFC9E-EE4B-4007-A2D2-EF5BCC54958F.Release|Any CPU.ActiveCfg = Release|Any CPU
+		7D165164-05A6-49D3-B517-02F6EDFA232F.Debug|Any CPU.Build.0 = Debug|Any CPU
+		7D165164-05A6-49D3-B517-02F6EDFA232F.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		7D165164-05A6-49D3-B517-02F6EDFA232F.Release|Any CPU.Build.0 = Release|Any CPU
+		7D165164-05A6-49D3-B517-02F6EDFA232F.Release|Any CPU.ActiveCfg = Release|Any CPU
+		B7EA07FA-284E-4F6E-AAA6-7D3309D98FF1.Debug|Any CPU.Build.0 = Debug|Any CPU
+		B7EA07FA-284E-4F6E-AAA6-7D3309D98FF1.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		B7EA07FA-284E-4F6E-AAA6-7D3309D98FF1.Release|Any CPU.Build.0 = Release|Any CPU
+		B7EA07FA-284E-4F6E-AAA6-7D3309D98FF1.Release|Any CPU.ActiveCfg = Release|Any CPU
+		63B06975-A82C-49B2-8433-A012B86C2C11.Debug|Any CPU.Build.0 = Debug|Any CPU
+		63B06975-A82C-49B2-8433-A012B86C2C11.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		63B06975-A82C-49B2-8433-A012B86C2C11.Release|Any CPU.Build.0 = Release|Any CPU
+		63B06975-A82C-49B2-8433-A012B86C2C11.Release|Any CPU.ActiveCfg = Release|Any CPU
+		B091C97A-91B9-4A71-BF98-A2AC7765430C.Debug|Any CPU.Build.0 = Debug|Any CPU
+		B091C97A-91B9-4A71-BF98-A2AC7765430C.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		B091C97A-91B9-4A71-BF98-A2AC7765430C.Release|Any CPU.Build.0 = Release|Any CPU
+		B091C97A-91B9-4A71-BF98-A2AC7765430C.Release|Any CPU.ActiveCfg = Release|Any CPU
+		6FA8B4AA-6CA4-405C-AF14-BEB38D4254B3.Debug|Any CPU.Build.0 = Debug|Any CPU
+		6FA8B4AA-6CA4-405C-AF14-BEB38D4254B3.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		6FA8B4AA-6CA4-405C-AF14-BEB38D4254B3.Release|Any CPU.Build.0 = Release|Any CPU
+		6FA8B4AA-6CA4-405C-AF14-BEB38D4254B3.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+EndGlobal
