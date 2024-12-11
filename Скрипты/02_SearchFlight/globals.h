@@ -11,6 +11,7 @@
 #include "../Common/openSearchFlightsPage.h"
 #include "../Common/chooseFlight.h"
 #include "../Common/logout.h"
+#include "../Common/getItineraryList.h"
 
 //--------------------------------------------------------------------
 // Global Variables

@@ -6,8 +6,11 @@ Action()
 	
 	lr_start_transaction("05_DeleteBooking");
 	openStartPage();
+	lr_think_time(5);
 	login();
+	lr_think_time(5);
 	getItineraryList();
+	lr_think_time(5);
 	
 	flightsCount = atoi(lr_eval_string("{flightIDs_count}"));
 	indexToDelete = rand() % flightsCount;
@@ -60,6 +63,10 @@ Action()
 		LAST);
 	
 	lr_end_transaction("Delete booking", LR_PASS);
+	
+	lr_think_time(5);
+	
+	logout();
 	
 	lr_end_transaction("05_DeleteBooking", LR_AUTO);
 	

@@ -2,9 +2,15 @@ Action()
 {
 	lr_start_transaction("03_BuyTicket");
 	openStartPage();
+	lr_think_time(5);
 	login();
+	lr_think_time(5);
 	openSearchFlightsPage();
+	lr_start_transaction("Fill out fields");
+	lr_think_time(5);
+	lr_end_transaction("Fill out fields", LR_PASS);
 	chooseFlight();
+	lr_think_time(5);
 	lr_start_transaction("Buy ticket");
 	lr_save_string(lr_paramarr_random("outboundFlights"), "outboundFlight");
 	
@@ -28,6 +34,8 @@ Action()
 		"Name=reserveFlights.x", "Value=29", ENDITEM,
 		"Name=reserveFlights.y", "Value=5", ENDITEM,
 		LAST);
+	
+	lr_think_time(15);
 
 	web_reg_find("Text=Thank you for booking through Web Tours.", LAST);
 	web_reg_find("Text=A {seatType} Class ticket", LAST);
@@ -63,7 +71,8 @@ Action()
 		LAST);
 	
 	lr_end_transaction("Buy ticket", LR_PASS);
-	logout();
+	//lr_think_time(5);
+	//logout();
 	lr_end_transaction("03_BuyTicket", LR_AUTO);
 	return 0;
 }

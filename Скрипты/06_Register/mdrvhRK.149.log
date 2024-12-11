@@ -1,0 +1,464 @@
+Action.c(100): Notify: Transaction "Register" ended with a "Pass" status (Duration: 21,1980 Think Time: 20,0027 Wasted Time: 0,0001).	[MsgId: MMSG-16870]
+Action.c(102): lr_think_time: 5,00 seconds.	[MsgId: MMSG-15948]
+../Common/logout.h(3): Notify: Transaction "Logout" started.	[MsgId: MMSG-16999]
+../Common/logout.h(5): web_reg_find started  	[MsgId: MMSG-26355]
+../Common/logout.h(5): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+../Common/logout.h(7): web_url("SignOff Button") started  	[MsgId: MMSG-26355]
+../Common/logout.h(7): t=550051ms: Already connected [0] to 127.0.0.1:8090  	[MsgId: MMSG-26000]
+../Common/logout.h(7): t=550051ms: 684-byte request headers for "http://127.0.0.1:8090/WebTours/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=406)
+../Common/logout.h(7):     GET /WebTours/welcome.pl?signOff=1 HTTP/1.1\r\n
+../Common/logout.h(7):     Referer: http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=flights\r\n
+../Common/logout.h(7):     Sec-Fetch-Dest: frame\r\n
+../Common/logout.h(7):     Sec-Fetch-Site: same-origin\r\n
+../Common/logout.h(7):     Priority: u=4\r\n
+../Common/logout.h(7):     Sec-Fetch-Mode: navigate\r\n
+../Common/logout.h(7):     DNT: 1\r\n
+../Common/logout.h(7):     Sec-GPC: 1\r\n
+../Common/logout.h(7):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133
+../Common/logout.h(7):     .0\r\n
+../Common/logout.h(7):     Accept-Encoding: gzip, deflate, zstd\r\n
+../Common/logout.h(7):     Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3\r\n
+../Common/logout.h(7):     Accept: */*\r\n
+../Common/logout.h(7):     Connection: Keep-Alive\r\n
+../Common/logout.h(7):     Host: 127.0.0.1:8090\r\n
+../Common/logout.h(7):     Cookie: MSO=SID&1733949937&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; 
+../Common/logout.h(7):     MTUserInfo=firstName&qyXce&address2&024734&username&dQFlLn&hash&110&lastName&xEcjr&address
+../Common/logout.h(7):     1&dMaWR&creditCard&&expDate&\r\n
+../Common/logout.h(7):     \r\n
+../Common/logout.h(7): t=550280ms: 386-byte response headers for "http://127.0.0.1:8090/WebTours/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=406)
+../Common/logout.h(7):     HTTP/1.1 200 Ok\r\n
+../Common/logout.h(7):     Server: Xitami\r\n
+../Common/logout.h(7):     Date: Wed, 11 Dec 2024 20:46:09 GMT\r\n
+../Common/logout.h(7):     Cache-control: no-cache\r\n
+../Common/logout.h(7):     Expires: 0\r\n
+../Common/logout.h(7):     Content-length: 630\r\n
+../Common/logout.h(7):     Content-type: text/html; charset=ISO-8859-1\r\n
+../Common/logout.h(7):     Date: Wed, 11 Dec 2024 20:46:09 GMT\r\n
+../Common/logout.h(7):     Set-cookie: MTUserInfo=; path=/; expires=Tue, 10-Dec-2024 20:46:09 GMT\r\n
+../Common/logout.h(7):     Set-cookie: MSO=SID&1733949969&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&
+../Common/logout.h(7):     50; path=/\r\n
+../Common/logout.h(7):     \r\n
+../Common/logout.h(7): t=550280ms: 630-byte response body for "http://127.0.0.1:8090/WebTours/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=406)
+../Common/logout.h(7):     <!-- \n
+../Common/logout.h(7):      A Session ID has been created and loaded into a cookie called MSO.\n
+../Common/logout.h(7):      Also, the server options have been loaded into the cookie called\n
+../Common/logout.h(7):      MSO as well.  The server options can be set via the Admin page.\n
+../Common/logout.h(7):      --->\n
+../Common/logout.h(7):     \n
+../Common/logout.h(7):     <html>\n
+../Common/logout.h(7):     <title>Web Tours</title>\n
+../Common/logout.h(7):        <!-- Frame Set -->\n
+../Common/logout.h(7):        <frameset cols="160,*" border=1 frameborder=1>\n
+../Common/logout.h(7):           <!-- Navigation Frame -->\n
+../Common/logout.h(7):           <frame src=nav.pl?in=home name=navbar marginheight=2 marginwidth=2 \n
+../Common/logout.h(7):                 noresize scrolling=auto>\n
+../Common/logout.h(7):           <!-- Home Frame -->\n
+../Common/logout.h(7):           <frame src=/WebTours/home.html name=info marginheight=2 marginwidth=2 \n
+../Common/logout.h(7):                 noresize scrolling=auto>\n
+../Common/logout.h(7):        </frameset>\n
+../Common/logout.h(7):     \n
+../Common/logout.h(7):     </body>\n
+../Common/logout.h(7):     </html>
+../Common/logout.h(7): Detected non-resource "http://127.0.0.1:8090/WebTours/nav.pl?in=home" in "http://127.0.0.1:8090/WebTours/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+../Common/logout.h(7): Detected non-resource "http://127.0.0.1:8090/WebTours/home.html" in "http://127.0.0.1:8090/WebTours/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+../Common/logout.h(7): Retrieving data from cache for "http://127.0.0.1:8090/WebTours/home.html"  	[MsgId: MMSG-26558]
+../Common/logout.h(7): t=550281ms: 1322-byte response body retrieved from cache for "http://127.0.0.1:8090/WebTours/home.html" (RelFrameId=1.2, Internal ID=408)
+../Common/logout.h(7):     <HTML>\n
+../Common/logout.h(7):     <HEAD>\n
+../Common/logout.h(7):     \t<title>Web Tours</title>\n
+../Common/logout.h(7):     </head>\n
+../Common/logout.h(7):     <style>\n
+../Common/logout.h(7):     \tblockquote {font-family: tahoma; font-size : 10pt}\n
+../Common/logout.h(7):     \tH1 {font-family: tahoma; font-size : 22pt; color: #003366}\n
+../Common/logout.h(7):     \tsmall {font-family: tahoma; font-size : 8pt}\n
+../Common/logout.h(7):     \tH3{font-family: tahoma; font-size : 10pt; color: black}\n
+../Common/logout.h(7):     \tA {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATIO
+../Common/logout.h(7):     N: none}\n
+../Common/logout.h(7):     \tA:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DE
+../Common/logout.h(7):     CORATION: underline}\n
+../Common/logout.h(7):     \tTD {font-family: tahoma; font-size : 10pt; color: black}\n
+../Common/logout.h(7):     </style>\n
+../Common/logout.h(7):     <body bgcolor=#e0e7f1>\n
+../Common/logout.h(7):     <BR>\n
+../Common/logout.h(7):     <BR>\n
+../Common/logout.h(7):     <BR>\n
+../Common/logout.h(7):     <br >\n
+../Common/logout.h(7):     <table border=0>\n
+../Common/logout.h(7):     <tr><td></td></tr>\n
+../Common/logout.h(7):     <TR><TD></TD></TR>\n
+../Common/logout.h(7):     <TR><TD>\n
+../Common/logout.h(7):     <blockquote>\n
+../Common/logout.h(7):     <H1><b>Web Tours</b></H1>\n
+../Common/logout.h(7):     Welcome to the Web Tours site.\n
+../Common/logout.h(7):     <br>\n
+../Common/logout.h(7):     To make reservations,please enter your account information to the left.\n
+../Common/logout.h(7):     <br>\n
+../Common/logout.h(7):     If you haven't registered yet, <A href="login.pl?username=&amp;password=&amp;getInfo=true"
+../Common/logout.h(7):      ><B>sign up now</B></A> to get access to all our resources.\n
+../Common/logout.h(7):     <br>\n
+../Common/logout.h(7):     To configure the server options, use <A href="admin.pl" target=body ><b>administration</b>
+../Common/logout.h(7):     </A> link.\n
+../Common/logout.h(7):     <br><br><br><br><br><br>\n
+../Common/logout.h(7):     <br><small>\n
+../Common/logout.h(7):     This product uses parts of the SMT Kernel, Copyright (c) 1991-99 <A href="http://www.imati
+../Common/logout.h(7):     x.com" target=new><B><small>iMatix Corporation</small></B></A> \n
+../Common/logout.h(7):     </small>\n
+../Common/logout.h(7):     </blockquote></TD>\n
+../Common/logout.h(7):     <TD></TD></TR>\n
+../Common/logout.h(7):     </table>\n
+../Common/logout.h(7):     </body>\n
+../Common/logout.h(7):     </html>\n
+../Common/logout.h(7): t=550281ms: Request done "http://127.0.0.1:8090/WebTours/welcome.pl?signOff=1"  	[MsgId: MMSG-26000]
+../Common/logout.h(7): t=550281ms: Already connected [1] to 127.0.0.1:8090  	[MsgId: MMSG-26000]
+../Common/logout.h(7): t=550281ms: 551-byte request headers for "http://127.0.0.1:8090/WebTours/nav.pl?in=home" (RelFrameId=1.1, Internal ID=407)
+../Common/logout.h(7):     GET /WebTours/nav.pl?in=home HTTP/1.1\r\n
+../Common/logout.h(7):     Referer: http://127.0.0.1:8090/WebTours/welcome.pl?signOff=1\r\n
+../Common/logout.h(7):     Sec-Fetch-Dest: frame\r\n
+../Common/logout.h(7):     Sec-Fetch-Site: same-origin\r\n
+../Common/logout.h(7):     Priority: u=4\r\n
+../Common/logout.h(7):     Sec-Fetch-Mode: navigate\r\n
+../Common/logout.h(7):     DNT: 1\r\n
+../Common/logout.h(7):     Sec-GPC: 1\r\n
+../Common/logout.h(7):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133
+../Common/logout.h(7):     .0\r\n
+../Common/logout.h(7):     Accept-Encoding: gzip, deflate, zstd\r\n
+../Common/logout.h(7):     Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3\r\n
+../Common/logout.h(7):     Accept: */*\r\n
+../Common/logout.h(7):     Connection: Keep-Alive\r\n
+../Common/logout.h(7):     Host: 127.0.0.1:8090\r\n
+../Common/logout.h(7):     Cookie: MSO=SID&1733949969&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50\r
+../Common/logout.h(7):     \n
+../Common/logout.h(7):     \r\n
+../Common/logout.h(3): Notify: Transaction "Logout" started.	[MsgId: MMSG-16999]
+../Common/logout.h(5): web_reg_find started  	[MsgId: MMSG-26355]
+../Common/logout.h(5): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+../Common/logout.h(7): web_url("SignOff Button") started  	[MsgId: MMSG-26355]
+../Common/logout.h(7): t=550351ms: Already connected [0] to 127.0.0.1:8090  	[MsgId: MMSG-26000]
+../Common/logout.h(7): t=550351ms: 684-byte request headers for "http://127.0.0.1:8090/WebTours/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=406)
+../Common/logout.h(7):     GET /WebTours/welcome.pl?signOff=1 HTTP/1.1\r\n
+../Common/logout.h(7):     Referer: http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=flights\r\n
+../Common/logout.h(7):     Sec-Fetch-Dest: frame\r\n
+../Common/logout.h(7):     Sec-Fetch-Site: same-origin\r\n
+../Common/logout.h(7):     Priority: u=4\r\n
+../Common/logout.h(7):     Sec-Fetch-Mode: navigate\r\n
+../Common/logout.h(7):     DNT: 1\r\n
+../Common/logout.h(7):     Sec-GPC: 1\r\n
+../Common/logout.h(7):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133
+../Common/logout.h(7):     .0\r\n
+../Common/logout.h(7):     Accept-Encoding: gzip, deflate, zstd\r\n
+../Common/logout.h(7):     Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3\r\n
+../Common/logout.h(7):     Accept: */*\r\n
+../Common/logout.h(7):     Connection: Keep-Alive\r\n
+../Common/logout.h(7):     Host: 127.0.0.1:8090\r\n
+../Common/logout.h(7):     Cookie: MSO=SID&1733949937&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; 
+../Common/logout.h(7):     MTUserInfo=firstName&cxmBX&address2&025134&username&DJIoMT&hash&116&lastName&FwtGD&address
+../Common/logout.h(7):     1&OrbsE&creditCard&&expDate&\r\n
+../Common/logout.h(7):     \r\n
+../Common/logout.h(7): t=550574ms: 386-byte response headers for "http://127.0.0.1:8090/WebTours/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=406)
+../Common/logout.h(7): t=550574ms: 253-byte response headers for "http://127.0.0.1:8090/WebTours/nav.pl?in=home" (RelFrameId=1.1, Internal ID=407)
+../Common/logout.h(7):     HTTP/1.1 200 Ok\r\n
+../Common/logout.h(7):     Server: Xitami\r\n
+../Common/logout.h(7):     HTTP/1.1 200 Ok\r\n
+../Common/logout.h(7):     Date: Wed, 11 Dec 2024 20:46:09 GMT\r\n
+../Common/logout.h(7):     Server: Xitami\r\n
+../Common/logout.h(7):     Cache-control: no-cache\r\n
+../Common/logout.h(7):     Date: Wed, 11 Dec 2024 20:46:09 GMT\r\n
+../Common/logout.h(7):     Expires: 0\r\n
+../Common/logout.h(7):     Cache-control: no-cache\r\n
+../Common/logout.h(7):     Content-length: 630\r\n
+../Common/logout.h(7):     Expires: 0\r\n
+../Common/logout.h(7):     Content-type: text/html; charset=ISO-8859-1\r\n
+../Common/logout.h(7):     Content-length: 2746\r\n
+../Common/logout.h(7):     Date: Wed, 11 Dec 2024 20:46:09 GMT\r\n
+../Common/logout.h(7):     Content-type: text/html; charset=ISO-8859-1\r\n
+../Common/logout.h(7):     Set-cookie: MTUserInfo=; path=/; expires=Tue, 10-Dec-2024 20:46:09 GMT\r\n
+../Common/logout.h(7):     Date: Wed, 11 Dec 2024 20:46:09 GMT\r\n
+../Common/logout.h(7):     Set-cookie: MSO=SID&1733949969&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&
+../Common/logout.h(7):     Expires: Tue, 10 Dec 2024 20:46:09 GMT\r\n
+../Common/logout.h(7):     50; path=/\r\n
+../Common/logout.h(7):     \r\n
+../Common/logout.h(7):     \r\n
+../Common/logout.h(7): t=550574ms: 630-byte response body for "http://127.0.0.1:8090/WebTours/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=406)
+../Common/logout.h(7): t=550574ms: 2746-byte response body for "http://127.0.0.1:8090/WebTours/nav.pl?in=home" (RelFrameId=1.1, Internal ID=407)
+../Common/logout.h(7):     <!-- \n
+../Common/logout.h(7):     <!-- Comments option is ON \n
+../Common/logout.h(7):      A Session ID has been created and loaded into a cookie called MSO.\n
+../Common/logout.h(7):     \n
+../Common/logout.h(7):      Also, the server options have been loaded into the cookie called\n
+../Common/logout.h(7):     These are used to make the automated parsing difficult.\n
+../Common/logout.h(7):      MSO as well.  The server options can be set via the Admin page.\n
+../Common/logout.h(7):     User must try and get the UserSession value.  There are several here, with similar boundar
+../Common/logout.h(7):      --->\n
+../Common/logout.h(7):     ies.\n
+../Common/logout.h(7):     \n
+../Common/logout.h(7):     But none are the right value.\n
+../Common/logout.h(7):     <html>\n
+../Common/logout.h(7):     <title>Web Tours</title>\n
+../Common/logout.h(7):        <!-- Frame Set -->\n
+../Common/logout.h(7):        <frameset cols="160,*" border=1 frameborder=1>\n
+../Common/logout.h(7):           <!-- Navigation Frame -->\n
+../Common/logout.h(7):           <frame src=nav.pl?in=home name=navbar marginheight=2 marginwidth=2 \n
+../Common/logout.h(7):                 noresize scrolling=auto>\n
+../Common/logout.h(7):           <!-- Home Frame -->\n
+../Common/logout.h(7):           <frame src=/WebTours/home.html name=info marginheight=2 marginwidth=2 \n
+../Common/logout.h(7):     \n
+../Common/logout.h(7):                 noresize scrolling=auto>\n
+../Common/logout.h(7):     <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">\n
+../Common/logout.h(7):        </frameset>\n
+../Common/logout.h(7):     <HTML><HEAD><TITLE>Web Tours Navigation Bar</TITLE>\n
+../Common/logout.h(7):     \n
+../Common/logout.h(7):     <style>\n
+../Common/logout.h(7):     </body>\n
+../Common/logout.h(7):     \tblockquote {font-family: tahoma; font-size : 10pt}\n
+../Common/logout.h(7):     </html>
+../Common/logout.h(7):     \tH1 {font-family: tahoma; font-size : 22pt;color: #993333}\n
+../Common/logout.h(7):     \tsmall {font-family: tahoma; font-size : 8pt}\n
+../Common/logout.h(7):     </style>\n
+../Common/logout.h(7):     </HEAD><BODY BGCOLOR="#E0E7F1"><br clear>\n
+../Common/logout.h(7):     <form method=post action=login.pl target=body>\n
+../Common/logout.h(7):     <input type=hidden name=userSession value=24140457.672660996HcctHQVpfDHftDDtipHtQccf>\n
+../Common/logout.h(7): Detected non-resource "http://127.0.0.1:8090/WebTours/nav.pl?in=home" in "http://127.0.0.1:8090/WebTours/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+../Common/logout.h(7):     <form method=post action=error.pl onSubmit='doJSformSubmit1(this)' target=body>\n
+../Common/logout.h(7):     <input type=hidden name=userSession value=1140457.672660996HcctHQVpfDHftDDtipHtQccf>\n
+../Common/logout.h(7):     <table border=0>\n
+../Common/logout.h(7):     <tr><td><font face=sans-serif size=2>&nbsp;</font><td><tr>\n
+../Common/logout.h(7): Detected non-resource "http://127.0.0.1:8090/WebTours/home.html" in "http://127.0.0.1:8090/WebTours/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+../Common/logout.h(7):     <tr><td><font face=sans-serif size=2>&nbsp;<b>Username</b></font><td><tr>\n
+../Common/logout.h(7):     <tr><td><input type=text name=username value='' size=18 maxlength=30>\n
+../Common/logout.h(7): Retrieving data from cache for "http://127.0.0.1:8090/WebTours/home.html"  	[MsgId: MMSG-26558]
+../Common/logout.h(7):     <tr><td><font face=sans-serif size=2>&nbsp;<b>Password</b></font>\n
+../Common/logout.h(7):     <tr><td><input type=password name=password value='' size=18 maxlength=30>\n
+../Common/logout.h(7): t=550575ms: 1322-byte response body retrieved from cache for "http://127.0.0.1:8090/WebTours/home.html" (RelFrameId=1.2, Internal ID=408)
+../Common/logout.h(7):     <HTML>\n
+../Common/logout.h(7):     <tr><td><input type=image name=login value=Login alt=Login border=1 src='/WebTours/images/
+../Common/logout.h(7):     <HEAD>\n
+../Common/logout.h(7):     \t<title>Web Tours</title>\n
+../Common/logout.h(7):     </head>\n
+../Common/logout.h(7):     mer_login.gif'>\n
+../Common/logout.h(7):     <style>\n
+../Common/logout.h(7):     </table></form>\n
+../Common/logout.h(7):     \tblockquote {font-family: tahoma; font-size : 10pt}\n
+../Common/logout.h(7):     </BODY></HTML>\n
+../Common/logout.h(7):     \tH1 {font-family: tahoma; font-size : 22pt; color: #003366}\n
+../Common/logout.h(7):     -->\n
+../Common/logout.h(7):     \tsmall {font-family: tahoma; font-size : 8pt}\n
+../Common/logout.h(7):     <!DOCTYPE html\n
+../Common/logout.h(7):     \tH3{font-family: tahoma; font-size : 10pt; color: black}\n
+../Common/logout.h(7):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+../Common/logout.h(7):     \tA {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATIO
+../Common/logout.h(7):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+../Common/logout.h(7):     N: none}\n
+../Common/logout.h(7):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+../Common/logout.h(7):     \tA:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DE
+../Common/logout.h(7):     <head>\n
+../Common/logout.h(7):     CORATION: underline}\n
+../Common/logout.h(7):     <title>Web Tours Navigation Bar</title>\n
+../Common/logout.h(7):     \tTD {font-family: tahoma; font-size : 10pt; color: black}\n
+../Common/logout.h(7):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+../Common/logout.h(7):     </style>\n
+../Common/logout.h(7):     </head>\n
+../Common/logout.h(7):     <body bgcolor=#e0e7f1>\n
+../Common/logout.h(7):     <body bgcolor="#F3E2E2" background="images/fonJM.png">\n
+../Common/logout.h(7):     <BR>\n
+../Common/logout.h(7):     <style>\n
+../Common/logout.h(7):     <BR>\n
+../Common/logout.h(7):     blockquote {font-family: tahoma; font-size : 10pt}\n
+../Common/logout.h(7):     <BR>\n
+../Common/logout.h(7):     H1 {font-family: tahoma; font-size : 22pt; color: #993333}\n
+../Common/logout.h(7):     <br >\n
+../Common/logout.h(7):     H3 {font-family: tahoma; font-size : 10pt; color: black}\n
+../Common/logout.h(7):     <table border=0>\n
+../Common/logout.h(7):     small {font-family: tahoma; font-size : 8pt}\n
+../Common/logout.h(7):     <tr><td></td></tr>\n
+../Common/logout.h(7):     </style>\n
+../Common/logout.h(7):     <TR><TD></TD></TR>\n
+../Common/logout.h(7):     <form method=post action=login.pl target=body>\n
+../Common/logout.h(7):     <TR><TD>\n
+../Common/logout.h(7):     <input type=hidden name=userSession value=140457.672660996HcctHQVpfDHftDDtipHtQccf>\n
+../Common/logout.h(7):     <blockquote>\n
+../Common/logout.h(7):     <table border=0><tr><td>&nbsp;</td>\n
+../Common/logout.h(7):     <H1><b>Web Tours</b></H1>\n
+../Common/logout.h(7):     <td>&nbsp;</td>\n
+../Common/logout.h(7):     Welcome to the Web Tours site.\n
+../Common/logout.h(7):     <tr><td>&nbsp;</td>\n
+../Common/logout.h(7):     <br>\n
+../Common/logout.h(7):     <td>&nbsp;</td></tr>\n
+../Common/logout.h(7):     To make reservations,please enter your account information to the left.\n
+../Common/logout.h(7):     <tr><td>&nbsp;</td>\n
+../Common/logout.h(7):     <br>\n
+../Common/logout.h(7):     <td><small>&nbsp;Username</small></td></tr>\n
+../Common/logout.h(7):     If you haven't registered yet, <A href="login.pl?username=&amp;password=&amp;getInfo=true"
+../Common/logout.h(7):     <tr><td>&nbsp;</td>\n
+../Common/logout.h(7):      ><B>sign up now</B></A> to get access to all our resources.\n
+../Common/logout.h(7):     <td><input type=text name=username value='' size=14 maxlength=14></td></tr>\n
+../Common/logout.h(7):     <br>\n
+../Common/logout.h(7):     <tr><td>&nbsp;</td>\n
+../Common/logout.h(7):     To configure the server options, use <A href="admin.pl" target=body ><b>administration</b>
+../Common/logout.h(7):     <td><small>&nbsp;Password</small></td>\n
+../Common/logout.h(7):     </A> link.\n
+../Common/logout.h(7):     <tr><td>&nbsp;</td>\n
+../Common/logout.h(7):     <br><br><br><br><br><br>\n
+../Common/logout.h(7):     <td><input type=password name=password value='' size=14 maxlength=14></td></tr>\n
+../Common/logout.h(7):     <br><small>\n
+../Common/logout.h(7):     <tr><td>&nbsp;</td>\n
+../Common/logout.h(7):     This product uses parts of the SMT Kernel, Copyright (c) 1991-99 <A href="http://www.imati
+../Common/logout.h(7):     <td>&nbsp;<tr><td>\n
+../Common/logout.h(7):     x.com" target=new><B><small>iMatix Corporation</small></B></A> \n
+../Common/logout.h(7):     <tr><td>&nbsp;</td>\n
+../Common/logout.h(7):     </small>\n
+../Common/logout.h(7):     <td><input type=image name=login value=Login alt=Login border=1 \n
+../Common/logout.h(7):     </blockquote></TD>\n
+../Common/logout.h(7):     <TD></TD></TR>\n
+../Common/logout.h(7):     </table>\n
+../Common/logout.h(7):     </body>\n
+../Common/logout.h(7):     </html>\n
+../Common/logout.h(7):     src='/WebTours/images/mer_login.gif'>\n
+../Common/logout.h(7):     <tr><td>&nbsp;</td>\n
+../Common/logout.h(7):     </table><input type=hidden name=JSFormSubmit value='off'>\n
+../Common/logout.h(7):     </form>\n
+../Common/logout.h(7):     \n
+../Common/logout.h(7):     </body>\n
+../Common/logout.h(7):     </html>\n
+../Common/logout.h(7): t=550576ms: Request done "http://127.0.0.1:8090/WebTours/welcome.pl?signOff=1"  	[MsgId: MMSG-26000]
+../Common/logout.h(7): t=550576ms: Already connected [1] to 127.0.0.1:8090  	[MsgId: MMSG-26000]
+../Common/logout.h(7): Resource "http://127.0.0.1:8090/WebTours/images/fonJM.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+../Common/logout.h(7): t=550576ms: 551-byte request headers for "http://127.0.0.1:8090/WebTours/nav.pl?in=home" (RelFrameId=1.1, Internal ID=407)
+../Common/logout.h(7):     GET /WebTours/nav.pl?in=home HTTP/1.1\r\n
+../Common/logout.h(7): Resource "http://127.0.0.1:8090/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+../Common/logout.h(7):     Referer: http://127.0.0.1:8090/WebTours/welcome.pl?signOff=1\r\n
+../Common/logout.h(7):     Sec-Fetch-Dest: frame\r\n
+../Common/logout.h(7):     Sec-Fetch-Site: same-origin\r\n
+../Common/logout.h(7): t=550576ms: Request done "http://127.0.0.1:8090/WebTours/nav.pl?in=home"  	[MsgId: MMSG-26000]
+../Common/logout.h(7):     Priority: u=4\r\n
+../Common/logout.h(7):     Sec-Fetch-Mode: navigate\r\n
+../Common/logout.h(7):     DNT: 1\r\n
+../Common/logout.h(7):     Sec-GPC: 1\r\n
+../Common/logout.h(7):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133
+../Common/logout.h(7):     .0\r\n
+../Common/logout.h(7):     Accept-Encoding: gzip, deflate, zstd\r\n
+../Common/logout.h(7): Registered web_reg_find successful for "Text=If you haven't registered yet," (count=1)  	[MsgId: MMSG-26364]
+../Common/logout.h(7):     Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3\r\n
+../Common/logout.h(7):     Accept: */*\r\n
+../Common/logout.h(7): web_url("SignOff Button") was successful, 3376 body bytes, 639 header bytes  	[MsgId: MMSG-26386]
+../Common/logout.h(7):     Connection: Keep-Alive\r\n
+../Common/logout.h(7):     Host: 127.0.0.1:8090\r\n
+../Common/logout.h(7):     Cookie: MSO=SID&1733949969&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50\r
+../Common/logout.h(7):     \n
+../Common/logout.h(7):     \r\n
+../Common/logout.h(17): Notify: Transaction "Logout" ended with a "Pass" status (Duration: 0,5257 Wasted Time: 0,0000).	[MsgId: MMSG-16871]
+Action.c(106): Notify: Transaction "06_Register" ended with a "Pass" status (Duration: 32,4504 Think Time: 30,0168 Wasted Time: 0,0003).	[MsgId: MMSG-16870]
+Ending action Action.	[MsgId: MMSG-15918]
+Action was aborted.	[MsgId: MMSG-10694]
+Ending Vuser...	[MsgId: MMSG-15966]
+Starting action vuser_end.	[MsgId: MMSG-15919]
+Ending action vuser_end.	[MsgId: MMSG-15918]
+Vuser Terminated.	[MsgId: MMSG-15963]
+t=550576ms: Closed connection [0] to 127.0.0.1:8090 after completing 7 request(s)  	[MsgId: MMSG-26000]
+t=550576ms: Closed connection [1] to 127.0.0.1:8090 after completing 7 request(s)  	[MsgId: MMSG-26000]
+t=550576ms: Closed connection [2] to 127.0.0.1:8090 after completing 4 request(s)  	[MsgId: MMSG-26000]
+t=550576ms: Closed connection [3] to 127.0.0.1:8090 after completing 2 request(s)  	[MsgId: MMSG-26000]
+t=550576ms: Closed connection [4] to 127.0.0.1:8090 after completing 2 request(s)  	[MsgId: MMSG-26000]
+HTML-Mode memory management statistics: Reusable=5, NonReusable=0, CsMemBlockSize=4096, checks disabled  	[MsgId: MMSG-26000]
+Vuser 0 (thread 64796), ended OK."	[MsgId: MMSG-10695]
+../Common/logout.h(7): t=550843ms: 253-byte response headers for "http://127.0.0.1:8090/WebTours/nav.pl?in=home" (RelFrameId=1.1, Internal ID=407)
+../Common/logout.h(7):     HTTP/1.1 200 Ok\r\n
+../Common/logout.h(7):     Server: Xitami\r\n
+../Common/logout.h(7):     Date: Wed, 11 Dec 2024 20:46:10 GMT\r\n
+../Common/logout.h(7):     Cache-control: no-cache\r\n
+../Common/logout.h(7):     Expires: 0\r\n
+../Common/logout.h(7):     Content-length: 2748\r\n
+../Common/logout.h(7):     Content-type: text/html; charset=ISO-8859-1\r\n
+../Common/logout.h(7):     Date: Wed, 11 Dec 2024 20:46:09 GMT\r\n
+../Common/logout.h(7):     Expires: Tue, 10 Dec 2024 20:46:09 GMT\r\n
+../Common/logout.h(7):     \r\n
+../Common/logout.h(7): t=550844ms: 2748-byte response body for "http://127.0.0.1:8090/WebTours/nav.pl?in=home" (RelFrameId=1.1, Internal ID=407)
+../Common/logout.h(7):     <!-- Comments option is ON \n
+../Common/logout.h(7):     \n
+../Common/logout.h(7):     These are used to make the automated parsing difficult.\n
+../Common/logout.h(7):     User must try and get the UserSession value.  There are several here, with similar boundar
+../Common/logout.h(7):     ies.\n
+../Common/logout.h(7):     But none are the right value.\n
+../Common/logout.h(7):     \n
+../Common/logout.h(7):     <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">\n
+../Common/logout.h(7):     <HTML><HEAD><TITLE>Web Tours Navigation Bar</TITLE>\n
+../Common/logout.h(7):     <style>\n
+../Common/logout.h(7):     \tblockquote {font-family: tahoma; font-size : 10pt}\n
+../Common/logout.h(7):     \tH1 {font-family: tahoma; font-size : 22pt;color: #993333}\n
+../Common/logout.h(7):     \tsmall {font-family: tahoma; font-size : 8pt}\n
+../Common/logout.h(7):     </style>\n
+../Common/logout.h(7):     </HEAD><BODY BGCOLOR="#E0E7F1"><br clear>\n
+../Common/logout.h(7):     <form method=post action=login.pl target=body>\n
+../Common/logout.h(7):     <input type=hidden name=userSession value=1133140457.672660996HcctHQVpfDHftDDtipHtQccf>\n
+../Common/logout.h(7):     <form method=post action=error.pl onSubmit='doJSformSubmit1(this)' target=body>\n
+../Common/logout.h(7):     <input type=hidden name=userSession value=1140457.672660996HcctHQVpfDHftDDtipHtQccf>\n
+../Common/logout.h(7):     <table border=0>\n
+../Common/logout.h(7):     <tr><td><font face=sans-serif size=2>&nbsp;</font><td><tr>\n
+../Common/logout.h(7):     <tr><td><font face=sans-serif size=2>&nbsp;<b>Username</b></font><td><tr>\n
+../Common/logout.h(7):     <tr><td><input type=text name=username value='' size=18 maxlength=30>\n
+../Common/logout.h(7):     <tr><td><font face=sans-serif size=2>&nbsp;<b>Password</b></font>\n
+../Common/logout.h(7):     <tr><td><input type=password name=password value='' size=18 maxlength=30>\n
+../Common/logout.h(7):     <tr><td><input type=image name=login value=Login alt=Login border=1 src='/WebTours/images/
+../Common/logout.h(7):     mer_login.gif'>\n
+../Common/logout.h(7):     </table></form>\n
+../Common/logout.h(7):     </BODY></HTML>\n
+../Common/logout.h(7):     -->\n
+../Common/logout.h(7):     <!DOCTYPE html\n
+../Common/logout.h(7):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+../Common/logout.h(7):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+../Common/logout.h(7):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+../Common/logout.h(7):     <head>\n
+../Common/logout.h(7):     <title>Web Tours Navigation Bar</title>\n
+../Common/logout.h(7):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+../Common/logout.h(7):     </head>\n
+../Common/logout.h(7):     <body bgcolor="#F3E2E2" background="images/fonJM.png">\n
+../Common/logout.h(7):     <style>\n
+../Common/logout.h(7):     blockquote {font-family: tahoma; font-size : 10pt}\n
+../Common/logout.h(7):     H1 {font-family: tahoma; font-size : 22pt; color: #993333}\n
+../Common/logout.h(7):     H3 {font-family: tahoma; font-size : 10pt; color: black}\n
+../Common/logout.h(7):     small {font-family: tahoma; font-size : 8pt}\n
+../Common/logout.h(7):     </style>\n
+../Common/logout.h(7):     <form method=post action=login.pl target=body>\n
+../Common/logout.h(7):     <input type=hidden name=userSession value=140457.672660996HcctHQVpfDHftDDtipHtQccf>\n
+../Common/logout.h(7):     <table border=0><tr><td>&nbsp;</td>\n
+../Common/logout.h(7):     <td>&nbsp;</td>\n
+../Common/logout.h(7):     <tr><td>&nbsp;</td>\n
+../Common/logout.h(7):     <td>&nbsp;</td></tr>\n
+../Common/logout.h(7):     <tr><td>&nbsp;</td>\n
+../Common/logout.h(7):     <td><small>&nbsp;Username</small></td></tr>\n
+../Common/logout.h(7):     <tr><td>&nbsp;</td>\n
+../Common/logout.h(7):     <td><input type=text name=username value='' size=14 maxlength=14></td></tr>\n
+../Common/logout.h(7):     <tr><td>&nbsp;</td>\n
+../Common/logout.h(7):     <td><small>&nbsp;Password</small></td>\n
+../Common/logout.h(7):     <tr><td>&nbsp;</td>\n
+../Common/logout.h(7):     <td><input type=password name=password value='' size=14 maxlength=14></td></tr>\n
+../Common/logout.h(7):     <tr><td>&nbsp;</td>\n
+../Common/logout.h(7):     <td>&nbsp;<tr><td>\n
+../Common/logout.h(7):     <tr><td>&nbsp;</td>\n
+../Common/logout.h(7):     <td><input type=image name=login value=Login alt=Login border=1 \n
+../Common/logout.h(7):     src='/WebTours/images/mer_login.gif'>\n
+../Common/logout.h(7):     <tr><td>&nbsp;</td>\n
+../Common/logout.h(7):     </table><input type=hidden name=JSFormSubmit value='off'>\n
+../Common/logout.h(7):     </form>\n
+../Common/logout.h(7):     \n
+../Common/logout.h(7):     </body>\n
+../Common/logout.h(7):     </html>\n
+../Common/logout.h(7): Resource "http://127.0.0.1:8090/WebTours/images/fonJM.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+../Common/logout.h(7): Resource "http://127.0.0.1:8090/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+../Common/logout.h(7): t=550845ms: Request done "http://127.0.0.1:8090/WebTours/nav.pl?in=home"  	[MsgId: MMSG-26000]
+../Common/logout.h(7): Registered web_reg_find successful for "Text=If you haven't registered yet," (count=1)  	[MsgId: MMSG-26364]
+../Common/logout.h(7): web_url("SignOff Button") was successful, 3378 body bytes, 639 header bytes  	[MsgId: MMSG-26386]
+../Common/logout.h(17): Notify: Transaction "Logout" ended with a "Pass" status (Duration: 0,4947 Wasted Time: 0,0000).	[MsgId: MMSG-16871]
+Action.c(106): Notify: Transaction "06_Register" ended with a "Pass" status (Duration: 32,4272 Think Time: 30,0114 Wasted Time: 0,0002).	[MsgId: MMSG-16870]
+Ending action Action.	[MsgId: MMSG-15918]
+Action was aborted.	[MsgId: MMSG-10694]
+Ending Vuser...	[MsgId: MMSG-15966]
+Starting action vuser_end.	[MsgId: MMSG-15919]
+Ending action vuser_end.	[MsgId: MMSG-15918]
+Vuser Terminated.	[MsgId: MMSG-15963]
+t=550846ms: Closed connection [0] to 127.0.0.1:8090 after completing 7 request(s)  	[MsgId: MMSG-26000]
+t=550846ms: Closed connection [1] to 127.0.0.1:8090 after completing 7 request(s)  	[MsgId: MMSG-26000]
+t=550846ms: Closed connection [2] to 127.0.0.1:8090 after completing 4 request(s)  	[MsgId: MMSG-26000]
+t=550846ms: Closed connection [3] to 127.0.0.1:8090 after completing 2 request(s)  	[MsgId: MMSG-26000]
+t=550846ms: Closed connection [4] to 127.0.0.1:8090 after completing 2 request(s)  	[MsgId: MMSG-26000]
+HTML-Mode memory management statistics: Reusable=5, NonReusable=0, CsMemBlockSize=4096, checks disabled  	[MsgId: MMSG-26000]
+Vuser 1 (thread 57200), ended OK."	[MsgId: MMSG-10695]

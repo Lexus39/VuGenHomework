@@ -1,0 +1,49 @@
+[Scenario]
+Product=LoadRunner Controller
+Version=2020.0.0.0
+Path=C:\Users\Алексей\Documents\VuGen\Scripts\VuGenHomework\VuGenHomework\Сценарии\DebugScenario.lrs
+Subject=TestScenario1
+Result_file=c:\users\алексей\documents\vugen\scripts\vugenhomework\vugenhomework\результаты\res\res.lrr
+Description=
+ResultName=res
+Time_Zone=-10800
+Start_time=1733950112
+Daylight_Bias=0
+Stop_time=1733951472
+[Configuration]
+Public_local=1
+Is_mix=1
+Is_runner_file=0
+Runner_file=
+[Running_mode]
+Start_reason=By command
+Stop_reason=By a user
+[Data Collection]
+FullData=1
+[Scenario_summary]
+Scenario Type=Manual Scenario
+Goal Profile Name=Group schedule for: 06_register_1_1
+Mode=Group Scheduling
+Scenario Duration=Unknown duration
+Load Behavior=Defined per scenario group
+[Groups_schedule]
+01_login=SG0;ST1_1E2;R1320;SP1;
+02_searchflights_1_1=SG0;ST1_1E2;R1320;SP1;
+03_buyticket=SG0;ST3_1E2;R1320;SP3;
+04_getitenerarylist_1_1=SG0;ST1_1E2;R1320;SP1;
+05_deletebooking=SG0;ST1_1E2;R1320;SP1;
+06_register_1_1=SG0;ST2_1E2;R1320;SP2;
+[Scripts]
+06_register_1_1_1=C:\Users\Алексей\Documents\VuGen\Scripts\VuGenHomework\VuGenHomework\Скрипты\06_Register\06_Register.usr
+05_deletebooking_1=C:\Users\Алексей\Documents\VuGen\Scripts\VuGenHomework\VuGenHomework\Скрипты\05_DeleteBooking\05_DeleteBooking.usr
+04_getitenerarylist_1_1_1_1_1_1=C:\Users\Алексей\Documents\VuGen\Scripts\VuGenHomework\VuGenHomework\Скрипты\04_GetItineraryList\04_GetItineraryList.usr
+03_buyticket_1=C:\Users\Алексей\Documents\VuGen\Scripts\VuGenHomework\VuGenHomework\Скрипты\03_BuyTicket\03_BuyTicket.usr
+02_searchflights_1_1=C:\Users\Алексей\Documents\VuGen\Scripts\VuGenHomework\VuGenHomework\Скрипты\02_SearchFlight\02_SearchFlight.usr
+01_login_1=C:\Users\Алексей\Documents\VuGen\Scripts\VuGenHomework\VuGenHomework\Скрипты\01_Login\01_Login.usr
+[Scripts_types]
+06_register_1_1_1=Multi+QTWeb
+05_deletebooking_1=Multi+QTWeb
+04_getitenerarylist_1_1_1_1_1_1=Multi+QTWeb
+03_buyticket_1=Multi+QTWeb
+02_searchflights_1_1=Multi+QTWeb
+01_login_1=Multi+QTWeb

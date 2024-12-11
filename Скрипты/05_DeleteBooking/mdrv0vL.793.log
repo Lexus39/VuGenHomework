@@ -1,0 +1,14 @@
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+../Common/getItineraryList.h(29): Notify: Transaction "Get itinerary list" ended with a "Pass" status (Duration: 0,7229 Wasted Time: 0,0004).	[MsgId: MMSG-16871]
+Action.c(13): lr_think_time: 5,00 seconds.	[MsgId: MMSG-15948]
+Action.c(49): Notify: Transaction "Delete booking" started.	[MsgId: MMSG-16999]
+Action.c(51): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(51): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(52): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(52): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(54): web_custom_request("itinerary.pl") started  	[MsgId: MMSG-26355]
+Action.c(54): Registered web_reg_find successful for "Text=name="flightID" value="{flightID}""  	[MsgId: MMSG-26362]
+Action.c(54): Error -26368: "Text=Unfortunately, we could not delete your entire itinerary because of a database synchronization error. " found for web_reg_find (count=1)  	[MsgId: MERR-26368]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+

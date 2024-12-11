@@ -1,0 +1,917 @@
+../Common/openStartPage.h(41):     Content-length: 800\r\n
+../Common/openStartPage.h(41):     Last-modified: Tue, 28 Feb 2017 19:59:45 GMT\r\n
+../Common/openStartPage.h(41):     \r\n
+../Common/openStartPage.h(41): t=34763ms: 800-byte response body for "http://127.0.0.1:8090/WebTours/header.html" (RelFrameId=1.1, Internal ID=243)
+../Common/openStartPage.h(41):     <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">\n
+../Common/openStartPage.h(41):     <HTML><HEAD></HEAD>\n
+../Common/openStartPage.h(41):     <BODY bgcolor=#730303 leftmargin="0" marginheight="0" marginwidth="0" topmargin="0">\n
+../Common/openStartPage.h(41):     \t\t&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n
+../Common/openStartPage.h(41):     bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \n
+../Common/openStartPage.h(41):     \t\t<table width="100%" border="0" cellspacing="0" cellpadding="0">\n
+../Common/openStartPage.h(41):     \t\t\t<tr>\n
+../Common/openStartPage.h(41):     \t\t\t\t<td align="left" valign="middle" width="50%"><img src="images/jmeter_logo.png" alt
+../Common/openStartPage.h(41):     ="" height="45" align="absmiddle" border="0"><a href="/WebTours"><img src="images/webtours
+../Common/openStartPage.h(41):     .png" alt="" height="45" width="130" align="absmiddle" border="0"></a><a href="welcome.pl?
+../Common/openStartPage.h(41):     page=menus" target="body"><img src="/WebTours/images/in_home.gif" alt="Home Button" border
+../Common/openStartPage.h(41):     ="0"></a></td>\n
+../Common/openStartPage.h(41):     \t\t\t\t<td></td>\n
+../Common/openStartPage.h(41):     \t\t\t</tr>\n
+../Common/openStartPage.h(41):     \t\t</table>\n
+../Common/openStartPage.h(41):     \t</BODY>\n
+../Common/openStartPage.h(41): Found resource "http://127.0.0.1:8090/WebTours/images/jmeter_logo.png" in HTML "http://127.0.0.1:8090/WebTours/header.html"  	[MsgId: MMSG-26659]
+../Common/openStartPage.h(41): Found resource "http://127.0.0.1:8090/WebTours/images/webtours.png" in HTML "http://127.0.0.1:8090/WebTours/header.html"  	[MsgId: MMSG-26659]
+../Common/openStartPage.h(41): Found resource "http://127.0.0.1:8090/WebTours/images/in_home.gif" in HTML "http://127.0.0.1:8090/WebTours/header.html"  	[MsgId: MMSG-26659]
+../Common/openStartPage.h(41): t=34764ms: Request done "http://127.0.0.1:8090/WebTours/header.html"  	[MsgId: MMSG-26000]
+../Common/openStartPage.h(41): t=34764ms: Already connected [1] to 127.0.0.1:8090  	[MsgId: MMSG-26000]
+../Common/openStartPage.h(41): t=34764ms: 433-byte request headers for "http://127.0.0.1:8090/WebTours/images/jmeter_logo.png" (RelFrameId=, Internal ID=245)
+../Common/openStartPage.h(41):     GET /WebTours/images/jmeter_logo.png HTTP/1.1\r\n
+../Common/openStartPage.h(41):     Referer: http://127.0.0.1:8090/WebTours/header.html\r\n
+../Common/openStartPage.h(41):     Sec-Fetch-Dest: document\r\n
+../Common/openStartPage.h(41):     Sec-Fetch-Site: none\r\n
+../Common/openStartPage.h(41):     Priority: u=0, i\r\n
+../Common/openStartPage.h(41):     Sec-Fetch-Mode: navigate\r\n
+../Common/openStartPage.h(41):     DNT: 1\r\n
+../Common/openStartPage.h(41):     Sec-Fetch-User: ?1\r\n
+../Common/openStartPage.h(41):     Sec-GPC: 1\r\n
+../Common/openStartPage.h(41):     Upgrade-Insecure-Requests: 1\r\n
+../Common/openStartPage.h(41):     User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)\r\n
+../Common/openStartPage.h(41):     Accept-Encoding: gzip, deflate\r\n
+../Common/openStartPage.h(41):     Accept: */*\r\n
+../Common/openStartPage.h(41):     Connection: Keep-Alive\r\n
+../Common/openStartPage.h(41):     Host: 127.0.0.1:8090\r\n
+../Common/openStartPage.h(41):     \r\n
+../Common/openStartPage.h(41): t=34764ms: Connecting [3] to host 127.0.0.1:8090  	[MsgId: MMSG-26000]
+../Common/openStartPage.h(41): t=34765ms: Connecting [4] to host 127.0.0.1:8090  	[MsgId: MMSG-26000]
+../Common/openStartPage.h(41): t=34765ms: Connected socket [3] from 127.0.0.1:7624 to 127.0.0.1:8090 in 1 ms  	[MsgId: MMSG-26000]
+../Common/openStartPage.h(41): t=34765ms: 430-byte request headers for "http://127.0.0.1:8090/WebTours/images/webtours.png" (RelFrameId=, Internal ID=246)
+../Common/openStartPage.h(41):     GET /WebTours/images/webtours.png HTTP/1.1\r\n
+../Common/openStartPage.h(41):     Referer: http://127.0.0.1:8090/WebTours/header.html\r\n
+../Common/openStartPage.h(41):     Sec-Fetch-Dest: document\r\n
+../Common/openStartPage.h(41):     Sec-Fetch-Site: none\r\n
+../Common/openStartPage.h(41):     Priority: u=0, i\r\n
+../Common/openStartPage.h(41):     Sec-Fetch-Mode: navigate\r\n
+../Common/openStartPage.h(41):     DNT: 1\r\n
+../Common/openStartPage.h(41):     Sec-Fetch-User: ?1\r\n
+../Common/openStartPage.h(41):     Sec-GPC: 1\r\n
+../Common/openStartPage.h(41):     Upgrade-Insecure-Requests: 1\r\n
+../Common/openStartPage.h(41):     User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)\r\n
+../Common/openStartPage.h(41):     Accept-Encoding: gzip, deflate\r\n
+../Common/openStartPage.h(41):     Accept: */*\r\n
+../Common/openStartPage.h(41):     Connection: Keep-Alive\r\n
+../Common/openStartPage.h(41):     Host: 127.0.0.1:8090\r\n
+../Common/openStartPage.h(41):     \r\n
+../Common/openStartPage.h(41): t=34766ms: Connected socket [4] from 127.0.0.1:7625 to 127.0.0.1:8090 in 1 ms  	[MsgId: MMSG-26000]
+../Common/openStartPage.h(41): t=34766ms: 429-byte request headers for "http://127.0.0.1:8090/WebTours/images/in_home.gif" (RelFrameId=, Internal ID=247)
+../Common/openStartPage.h(41):     GET /WebTours/images/in_home.gif HTTP/1.1\r\n
+../Common/openStartPage.h(41):     Referer: http://127.0.0.1:8090/WebTours/header.html\r\n
+../Common/openStartPage.h(41):     Sec-Fetch-Dest: document\r\n
+../Common/openStartPage.h(41):     Sec-Fetch-Site: none\r\n
+../Common/openStartPage.h(41):     Priority: u=0, i\r\n
+../Common/openStartPage.h(41):     Sec-Fetch-Mode: navigate\r\n
+../Common/openStartPage.h(41):     DNT: 1\r\n
+../Common/openStartPage.h(41):     Sec-Fetch-User: ?1\r\n
+../Common/openStartPage.h(41):     Sec-GPC: 1\r\n
+../Common/openStartPage.h(41):     Upgrade-Insecure-Requests: 1\r\n
+../Common/openStartPage.h(41):     User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)\r\n
+../Common/openStartPage.h(41):     Accept-Encoding: gzip, deflate\r\n
+../Common/openStartPage.h(41):     Accept: */*\r\n
+../Common/openStartPage.h(41):     Connection: Keep-Alive\r\n
+../Common/openStartPage.h(41):     Host: 127.0.0.1:8090\r\n
+../Common/openStartPage.h(41):     \r\n
+../Common/openStartPage.h(41): t=34766ms: 165-byte response headers for "http://127.0.0.1:8090/WebTours/images/jmeter_logo.png" (RelFrameId=, Internal ID=245)
+../Common/openStartPage.h(41):     HTTP/1.1 200 Ok\r\n
+../Common/openStartPage.h(41):     Server: Xitami\r\n
+../Common/openStartPage.h(41):     Date: Wed, 11 Dec 2024 20:07:00 GMT\r\n
+../Common/openStartPage.h(41):     Content-type: image/png\r\n
+../Common/openStartPage.h(41):     Content-length: 2522\r\n
+../Common/openStartPage.h(41):     Last-modified: Tue, 28 Feb 2017 19:08:47 GMT\r\n
+../Common/openStartPage.h(41):     \r\n
+../Common/openStartPage.h(41): t=34767ms: 2522-byte response body for "http://127.0.0.1:8090/WebTours/images/jmeter_logo.png" (RelFrameId=, Internal ID=245)
+../Common/openStartPage.h(41): t=34767ms: Request done "http://127.0.0.1:8090/WebTours/images/jmeter_logo.png"  	[MsgId: MMSG-26000]
+../Common/openStartPage.h(41): t=34769ms: 164-byte response headers for "http://127.0.0.1:8090/WebTours/images/webtours.png" (RelFrameId=, Internal ID=246)
+../Common/openStartPage.h(41):     HTTP/1.1 200 Ok\r\n
+../Common/openStartPage.h(41):     Server: Xitami\r\n
+../Common/openStartPage.h(41):     Date: Wed, 11 Dec 2024 20:07:00 GMT\r\n
+../Common/openStartPage.h(41):     Content-type: image/png\r\n
+../Common/openStartPage.h(41):     Content-length: 818\r\n
+../Common/openStartPage.h(41):     Last-modified: Mon, 08 Feb 2010 11:51:43 GMT\r\n
+../Common/openStartPage.h(41):     \r\n
+../Common/openStartPage.h(41): t=34771ms: 164-byte response headers for "http://127.0.0.1:8090/WebTours/images/in_home.gif" (RelFrameId=, Internal ID=247)
+../Common/openStartPage.h(41):     HTTP/1.1 200 Ok\r\n
+../Common/openStartPage.h(41):     Server: Xitami\r\n
+../Common/openStartPage.h(41):     Date: Wed, 11 Dec 2024 20:07:00 GMT\r\n
+../Common/openStartPage.h(41):     Content-type: image/gif\r\n
+../Common/openStartPage.h(41):     Content-length: 688\r\n
+../Common/openStartPage.h(41):     Last-modified: Mon, 08 Feb 2010 11:51:43 GMT\r\n
+../Common/openStartPage.h(41):     \r\n
+../Common/openStartPage.h(41): t=34772ms: 818-byte response body for "http://127.0.0.1:8090/WebTours/images/webtours.png" (RelFrameId=, Internal ID=246)
+../Common/openStartPage.h(41): t=34772ms: Request done "http://127.0.0.1:8090/WebTours/images/webtours.png"  	[MsgId: MMSG-26000]
+../Common/openStartPage.h(41): t=34772ms: 688-byte response body for "http://127.0.0.1:8090/WebTours/images/in_home.gif" (RelFrameId=, Internal ID=247)
+../Common/openStartPage.h(41): t=34772ms: Request done "http://127.0.0.1:8090/WebTours/images/in_home.gif"  	[MsgId: MMSG-26000]
+../Common/openStartPage.h(41): t=35405ms: 386-byte response headers for "http://127.0.0.1:8090/WebTours/welcome.pl?signOff=true" (RelFrameId=1.2, Internal ID=244)
+../Common/openStartPage.h(41):     HTTP/1.1 200 Ok\r\n
+../Common/openStartPage.h(41):     Server: Xitami\r\n
+../Common/openStartPage.h(41):     Date: Wed, 11 Dec 2024 20:07:01 GMT\r\n
+../Common/openStartPage.h(41):     Cache-control: no-cache\r\n
+../Common/openStartPage.h(41):     Expires: 0\r\n
+../Common/openStartPage.h(41):     Content-length: 630\r\n
+../Common/openStartPage.h(41):     Content-type: text/html; charset=ISO-8859-1\r\n
+../Common/openStartPage.h(41):     Date: Wed, 11 Dec 2024 20:07:01 GMT\r\n
+../Common/openStartPage.h(41):     Set-cookie: MTUserInfo=; path=/; expires=Tue, 10-Dec-2024 20:07:01 GMT\r\n
+../Common/openStartPage.h(41):     Set-cookie: MSO=SID&1733947621&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&
+../Common/openStartPage.h(41):     50; path=/\r\n
+../Common/openStartPage.h(41):     \r\n
+../Common/openStartPage.h(41): t=35406ms: 630-byte response body for "http://127.0.0.1:8090/WebTours/welcome.pl?signOff=true" (RelFrameId=1.2, Internal ID=244)
+../Common/openStartPage.h(41):     <!-- \n
+../Common/openStartPage.h(41):      A Session ID has been created and loaded into a cookie called MSO.\n
+../Common/openStartPage.h(41):      Also, the server options have been loaded into the cookie called\n
+../Common/openStartPage.h(41):      MSO as well.  The server options can be set via the Admin page.\n
+../Common/openStartPage.h(41):      --->\n
+../Common/openStartPage.h(41):     \n
+../Common/openStartPage.h(41):     <html>\n
+../Common/openStartPage.h(41):     <title>Web Tours</title>\n
+../Common/openStartPage.h(41):        <!-- Frame Set -->\n
+../Common/openStartPage.h(41):        <frameset cols="160,*" border=1 frameborder=1>\n
+../Common/openStartPage.h(41):           <!-- Navigation Frame -->\n
+../Common/openStartPage.h(41):           <frame src=nav.pl?in=home name=navbar marginheight=2 marginwidth=2 \n
+../Common/openStartPage.h(41):                 noresize scrolling=auto>\n
+../Common/openStartPage.h(41):           <!-- Home Frame -->\n
+../Common/openStartPage.h(41):           <frame src=/WebTours/home.html name=info marginheight=2 marginwidth=2 \n
+../Common/openStartPage.h(41):                 noresize scrolling=auto>\n
+../Common/openStartPage.h(41):        </frameset>\n
+../Common/openStartPage.h(41):     \n
+../Common/openStartPage.h(41):     </body>\n
+../Common/openStartPage.h(41):     </html>
+../Common/openStartPage.h(41): Detected non-resource "http://127.0.0.1:8090/WebTours/nav.pl?in=home" in "http://127.0.0.1:8090/WebTours/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+../Common/openStartPage.h(41): Detected non-resource "http://127.0.0.1:8090/WebTours/home.html" in "http://127.0.0.1:8090/WebTours/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+../Common/openStartPage.h(41): t=35406ms: Request done "http://127.0.0.1:8090/WebTours/welcome.pl?signOff=true"  	[MsgId: MMSG-26000]
+../Common/openStartPage.h(41): t=35406ms: Already connected [0] to 127.0.0.1:8090  	[MsgId: MMSG-26000]
+../Common/openStartPage.h(41): t=35406ms: 527-byte request headers for "http://127.0.0.1:8090/WebTours/nav.pl?in=home" (RelFrameId=1.2.1, Internal ID=248)
+../Common/openStartPage.h(41):     GET /WebTours/nav.pl?in=home HTTP/1.1\r\n
+../Common/openStartPage.h(41):     Referer: http://127.0.0.1:8090/WebTours/welcome.pl?signOff=true\r\n
+../Common/openStartPage.h(41):     Sec-Fetch-Dest: document\r\n
+../Common/openStartPage.h(41):     Sec-Fetch-Site: none\r\n
+../Common/openStartPage.h(41):     Priority: u=0, i\r\n
+../Common/openStartPage.h(41):     Sec-Fetch-Mode: navigate\r\n
+../Common/openStartPage.h(41):     DNT: 1\r\n
+../Common/openStartPage.h(41):     Sec-Fetch-User: ?1\r\n
+../Common/openStartPage.h(41):     Sec-GPC: 1\r\n
+../Common/openStartPage.h(41):     Upgrade-Insecure-Requests: 1\r\n
+../Common/openStartPage.h(41):     User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)\r\n
+../Common/openStartPage.h(41):     Accept-Encoding: gzip, deflate\r\n
+../Common/openStartPage.h(41):     Accept: */*\r\n
+../Common/openStartPage.h(41):     Connection: Keep-Alive\r\n
+../Common/openStartPage.h(41):     Host: 127.0.0.1:8090\r\n
+../Common/openStartPage.h(41):     Cookie: MSO=SID&1733947621&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50\r
+../Common/openStartPage.h(41):     \n
+../Common/openStartPage.h(41):     \r\n
+../Common/openStartPage.h(41): t=35406ms: Already connected [1] to 127.0.0.1:8090  	[MsgId: MMSG-26000]
+../Common/openStartPage.h(41): t=35406ms: 522-byte request headers for "http://127.0.0.1:8090/WebTours/home.html" (RelFrameId=1.2.2, Internal ID=249)
+../Common/openStartPage.h(41):     GET /WebTours/home.html HTTP/1.1\r\n
+../Common/openStartPage.h(41):     Referer: http://127.0.0.1:8090/WebTours/welcome.pl?signOff=true\r\n
+../Common/openStartPage.h(41):     Sec-Fetch-Dest: document\r\n
+../Common/openStartPage.h(41):     Sec-Fetch-Site: none\r\n
+../Common/openStartPage.h(41):     Priority: u=0, i\r\n
+../Common/openStartPage.h(41):     Sec-Fetch-Mode: navigate\r\n
+../Common/openStartPage.h(41):     DNT: 1\r\n
+../Common/openStartPage.h(41):     Sec-Fetch-User: ?1\r\n
+../Common/openStartPage.h(41):     Sec-GPC: 1\r\n
+../Common/openStartPage.h(41):     Upgrade-Insecure-Requests: 1\r\n
+../Common/openStartPage.h(41):     User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)\r\n
+../Common/openStartPage.h(41):     Accept-Encoding: gzip, deflate\r\n
+../Common/openStartPage.h(41):     Accept: */*\r\n
+../Common/openStartPage.h(41):     Connection: Keep-Alive\r\n
+../Common/openStartPage.h(41):     Host: 127.0.0.1:8090\r\n
+../Common/openStartPage.h(41):     Cookie: MSO=SID&1733947621&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50\r
+../Common/openStartPage.h(41):     \n
+../Common/openStartPage.h(41):     \r\n
+../Common/openStartPage.h(41): t=35492ms: 165-byte response headers for "http://127.0.0.1:8090/WebTours/home.html" (RelFrameId=1.2.2, Internal ID=249)
+../Common/openStartPage.h(41):     HTTP/1.1 200 Ok\r\n
+../Common/openStartPage.h(41):     Server: Xitami\r\n
+../Common/openStartPage.h(41):     Date: Wed, 11 Dec 2024 20:07:01 GMT\r\n
+../Common/openStartPage.h(41):     Content-type: text/html\r\n
+../Common/openStartPage.h(41):     Content-length: 1322\r\n
+../Common/openStartPage.h(41):     Last-modified: Tue, 28 Feb 2017 19:12:27 GMT\r\n
+../Common/openStartPage.h(41):     \r\n
+../Common/openStartPage.h(41): t=35493ms: 1322-byte response body for "http://127.0.0.1:8090/WebTours/home.html" (RelFrameId=1.2.2, Internal ID=249)
+../Common/openStartPage.h(41):     <HTML>\n
+../Common/openStartPage.h(41):     <HEAD>\n
+../Common/openStartPage.h(41):     \t<title>Web Tours</title>\n
+../Common/openStartPage.h(41):     </head>\n
+../Common/openStartPage.h(41):     <style>\n
+../Common/openStartPage.h(41):     \tblockquote {font-family: tahoma; font-size : 10pt}\n
+../Common/openStartPage.h(41):     \tH1 {font-family: tahoma; font-size : 22pt; color: #003366}\n
+../Common/openStartPage.h(41):     \tsmall {font-family: tahoma; font-size : 8pt}\n
+../Common/openStartPage.h(41):     \tH3{font-family: tahoma; font-size : 10pt; color: black}\n
+../Common/openStartPage.h(41):     \tA {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATIO
+../Common/openStartPage.h(41):     N: none}\n
+../Common/openStartPage.h(41):     \tA:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DE
+../Common/openStartPage.h(41):     CORATION: underline}\n
+../Common/openStartPage.h(41):     \tTD {font-family: tahoma; font-size : 10pt; color: black}\n
+../Common/openStartPage.h(41):     </style>\n
+../Common/openStartPage.h(41):     <body bgcolor=#e0e7f1>\n
+../Common/openStartPage.h(41):     <BR>\n
+../Common/openStartPage.h(41):     <BR>\n
+../Common/openStartPage.h(41):     <BR>\n
+../Common/openStartPage.h(41):     <br >\n
+../Common/openStartPage.h(41):     <table border=0>\n
+../Common/openStartPage.h(41):     <tr><td></td></tr>\n
+../Common/openStartPage.h(41):     <TR><TD></TD></TR>\n
+../Common/openStartPage.h(41):     <TR><TD>\n
+../Common/openStartPage.h(41):     <blockquote>\n
+../Common/openStartPage.h(41):     <H1><b>Web Tours</b></H1>\n
+../Common/openStartPage.h(41):     Welcome to the Web Tours site.\n
+../Common/openStartPage.h(41):     <br>\n
+../Common/openStartPage.h(41):     To make reservations,please enter your account information to the left.\n
+../Common/openStartPage.h(41):     <br>\n
+../Common/openStartPage.h(41):     If you haven't registered yet, <A href="login.pl?username=&amp;password=&amp;getInfo=true"
+../Common/openStartPage.h(41):      ><B>sign up now</B></A> to get access to all our resources.\n
+../Common/openStartPage.h(41):     <br>\n
+../Common/openStartPage.h(41):     To configure the server options, use <A href="admin.pl" target=body ><b>administration</b>
+../Common/openStartPage.h(41):     </A> link.\n
+../Common/openStartPage.h(41):     <br><br><br><br><br><br>\n
+../Common/openStartPage.h(41):     <br><small>\n
+../Common/openStartPage.h(41):     This product uses parts of the SMT Kernel, Copyright (c) 1991-99 <A href="http://www.imati
+../Common/openStartPage.h(41):     x.com" target=new><B><small>iMatix Corporation</small></B></A> \n
+../Common/openStartPage.h(41):     </small>\n
+../Common/openStartPage.h(41):     </blockquote></TD>\n
+../Common/openStartPage.h(41):     <TD></TD></TR>\n
+../Common/openStartPage.h(41):     </table>\n
+../Common/openStartPage.h(41):     </body>\n
+../Common/openStartPage.h(41):     </html>\n
+../Common/openStartPage.h(41): t=35493ms: Request done "http://127.0.0.1:8090/WebTours/home.html"  	[MsgId: MMSG-26000]
+../Common/openStartPage.h(41): t=36264ms: 253-byte response headers for "http://127.0.0.1:8090/WebTours/nav.pl?in=home" (RelFrameId=1.2.1, Internal ID=248)
+../Common/openStartPage.h(41):     HTTP/1.1 200 Ok\r\n
+../Common/openStartPage.h(41):     Server: Xitami\r\n
+../Common/openStartPage.h(41):     Date: Wed, 11 Dec 2024 20:07:02 GMT\r\n
+../Common/openStartPage.h(41):     Cache-control: no-cache\r\n
+../Common/openStartPage.h(41):     Expires: 0\r\n
+../Common/openStartPage.h(41):     Content-length: 2760\r\n
+../Common/openStartPage.h(41):     Content-type: text/html; charset=ISO-8859-1\r\n
+../Common/openStartPage.h(41):     Date: Wed, 11 Dec 2024 20:07:01 GMT\r\n
+../Common/openStartPage.h(41):     Expires: Tue, 10 Dec 2024 20:07:01 GMT\r\n
+../Common/openStartPage.h(41):     \r\n
+../Common/openStartPage.h(41): t=36265ms: 2760-byte response body for "http://127.0.0.1:8090/WebTours/nav.pl?in=home" (RelFrameId=1.2.1, Internal ID=248)
+../Common/openStartPage.h(41):     <!-- Comments option is ON \n
+../Common/openStartPage.h(41):     \n
+../Common/openStartPage.h(41):     These are used to make the automated parsing difficult.\n
+../Common/openStartPage.h(41):     User must try and get the UserSession value.  There are several here, with similar boundar
+../Common/openStartPage.h(41):     ies.\n
+../Common/openStartPage.h(41):     But none are the right value.\n
+../Common/openStartPage.h(41):     \n
+../Common/openStartPage.h(41):     <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">\n
+../Common/openStartPage.h(41):     <HTML><HEAD><TITLE>Web Tours Navigation Bar</TITLE>\n
+../Common/openStartPage.h(41):     <style>\n
+../Common/openStartPage.h(41):     \tblockquote {font-family: tahoma; font-size : 10pt}\n
+../Common/openStartPage.h(41):     \tH1 {font-family: tahoma; font-size : 22pt;color: #993333}\n
+../Common/openStartPage.h(41):     \tsmall {font-family: tahoma; font-size : 8pt}\n
+../Common/openStartPage.h(41):     </style>\n
+../Common/openStartPage.h(41):     </HEAD><BODY BGCOLOR="#E0E7F1"><br clear>\n
+../Common/openStartPage.h(41):     <form method=post action=login.pl target=body>\n
+../Common/openStartPage.h(41):     <input type=hidden name=userSession value=7700140457.482462535HcctHiVpHftVzzzHtDDtipzQAfcf
+../Common/openStartPage.h(41):     >\n
+../Common/openStartPage.h(41):     <form method=post action=error.pl onSubmit='doJSformSubmit1(this)' target=body>\n
+../Common/openStartPage.h(41):     <input type=hidden name=userSession value=1140457.482462535HcctHiVpHftVzzzHtDDtipzQAfcf>\n
+../Common/openStartPage.h(41):     <table border=0>\n
+../Common/openStartPage.h(41):     <tr><td><font face=sans-serif size=2>&nbsp;</font><td><tr>\n
+../Common/openStartPage.h(41):     <tr><td><font face=sans-serif size=2>&nbsp;<b>Username</b></font><td><tr>\n
+../Common/openStartPage.h(41):     <tr><td><input type=text name=username value='' size=18 maxlength=30>\n
+../Common/openStartPage.h(41):     <tr><td><font face=sans-serif size=2>&nbsp;<b>Password</b></font>\n
+../Common/openStartPage.h(41):     <tr><td><input type=password name=password value='' size=18 maxlength=30>\n
+../Common/openStartPage.h(41):     <tr><td><input type=image name=login value=Login alt=Login border=1 src='/WebTours/images/
+../Common/openStartPage.h(41):     mer_login.gif'>\n
+../Common/openStartPage.h(41):     </table></form>\n
+../Common/openStartPage.h(41):     </BODY></HTML>\n
+../Common/openStartPage.h(41):     -->\n
+../Common/openStartPage.h(41):     <!DOCTYPE html\n
+../Common/openStartPage.h(41):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+../Common/openStartPage.h(41):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+../Common/openStartPage.h(41):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+../Common/openStartPage.h(41):     <head>\n
+../Common/openStartPage.h(41):     <title>Web Tours Navigation Bar</title>\n
+../Common/openStartPage.h(41):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+../Common/openStartPage.h(41):     </head>\n
+../Common/openStartPage.h(41):     <body bgcolor="#F3E2E2" background="images/fonJM.png">\n
+../Common/openStartPage.h(41):     <style>\n
+../Common/openStartPage.h(41):     blockquote {font-family: tahoma; font-size : 10pt}\n
+../Common/openStartPage.h(41):     H1 {font-family: tahoma; font-size : 22pt; color: #993333}\n
+../Common/openStartPage.h(41):     H3 {font-family: tahoma; font-size : 10pt; color: black}\n
+../Common/openStartPage.h(41):     small {font-family: tahoma; font-size : 8pt}\n
+../Common/openStartPage.h(41):     </style>\n
+../Common/openStartPage.h(41):     <form method=post action=login.pl target=body>\n
+../Common/openStartPage.h(41):     <input type=hidden name=userSession value=140457.482462535HcctHiVpHftVzzzHtDDtipzQAfcf>\n
+../Common/openStartPage.h(41):     <table border=0><tr><td>&nbsp;</td>\n
+../Common/openStartPage.h(41):     <td>&nbsp;</td>\n
+../Common/openStartPage.h(41):     <tr><td>&nbsp;</td>\n
+../Common/openStartPage.h(41):     <td>&nbsp;</td></tr>\n
+../Common/openStartPage.h(41):     <tr><td>&nbsp;</td>\n
+../Common/openStartPage.h(41):     <td><small>&nbsp;Username</small></td></tr>\n
+../Common/openStartPage.h(41):     <tr><td>&nbsp;</td>\n
+../Common/openStartPage.h(41):     <td><input type=text name=username value='' size=14 maxlength=14></td></tr>\n
+../Common/openStartPage.h(41):     <tr><td>&nbsp;</td>\n
+../Common/openStartPage.h(41):     <td><small>&nbsp;Password</small></td>\n
+../Common/openStartPage.h(41):     <tr><td>&nbsp;</td>\n
+../Common/openStartPage.h(41):     <td><input type=password name=password value='' size=14 maxlength=14></td></tr>\n
+../Common/openStartPage.h(41):     <tr><td>&nbsp;</td>\n
+../Common/openStartPage.h(41):     <td>&nbsp;<tr><td>\n
+../Common/openStartPage.h(41):     <tr><td>&nbsp;</td>\n
+../Common/openStartPage.h(41):     <td><input type=image name=login value=Login alt=Login border=1 \n
+../Common/openStartPage.h(41):     src='/WebTours/images/mer_login.gif'>\n
+../Common/openStartPage.h(41):     <tr><td>&nbsp;</td>\n
+../Common/openStartPage.h(41):     </table><input type=hidden name=JSFormSubmit value='off'>\n
+../Common/openStartPage.h(41):     </form>\n
+../Common/openStartPage.h(41):     \n
+../Common/openStartPage.h(41):     </body>\n
+../Common/openStartPage.h(41):     </html>\n
+../Common/openStartPage.h(41): Notify: Saving Parameter "userSession = 140457.482462535HcctHiVpHftVzzzHtDDtipzQAfcf".	[MsgId: MMSG-13798]
+../Common/openStartPage.h(41): Found resource "http://127.0.0.1:8090/WebTours/images/fonJM.png" in HTML "http://127.0.0.1:8090/WebTours/nav.pl?in=home"  	[MsgId: MMSG-26659]
+../Common/openStartPage.h(41): Found resource "http://127.0.0.1:8090/WebTours/images/mer_login.gif" in HTML "http://127.0.0.1:8090/WebTours/nav.pl?in=home"  	[MsgId: MMSG-26659]
+../Common/openStartPage.h(41): t=36267ms: Request done "http://127.0.0.1:8090/WebTours/nav.pl?in=home"  	[MsgId: MMSG-26000]
+../Common/openStartPage.h(41): t=36267ms: Already connected [1] to 127.0.0.1:8090  	[MsgId: MMSG-26000]
+../Common/openStartPage.h(41): t=36267ms: 520-byte request headers for "http://127.0.0.1:8090/WebTours/images/fonJM.png" (RelFrameId=, Internal ID=250)
+../Common/openStartPage.h(41):     GET /WebTours/images/fonJM.png HTTP/1.1\r\n
+../Common/openStartPage.h(41):     Referer: http://127.0.0.1:8090/WebTours/nav.pl?in=home\r\n
+../Common/openStartPage.h(41):     Sec-Fetch-Dest: document\r\n
+../Common/openStartPage.h(41):     Sec-Fetch-Site: none\r\n
+../Common/openStartPage.h(41):     Priority: u=0, i\r\n
+../Common/openStartPage.h(41):     Sec-Fetch-Mode: navigate\r\n
+../Common/openStartPage.h(41):     DNT: 1\r\n
+../Common/openStartPage.h(41):     Sec-Fetch-User: ?1\r\n
+../Common/openStartPage.h(41):     Sec-GPC: 1\r\n
+../Common/openStartPage.h(41):     Upgrade-Insecure-Requests: 1\r\n
+../Common/openStartPage.h(41):     User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)\r\n
+../Common/openStartPage.h(41):     Accept-Encoding: gzip, deflate\r\n
+../Common/openStartPage.h(41):     Accept: */*\r\n
+../Common/openStartPage.h(41):     Connection: Keep-Alive\r\n
+../Common/openStartPage.h(41):     Host: 127.0.0.1:8090\r\n
+../Common/openStartPage.h(41):     Cookie: MSO=SID&1733947621&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50\r
+../Common/openStartPage.h(41):     \n
+../Common/openStartPage.h(41):     \r\n
+../Common/openStartPage.h(41): t=36267ms: Already connected [2] to 127.0.0.1:8090  	[MsgId: MMSG-26000]
+../Common/openStartPage.h(41): t=36267ms: 524-byte request headers for "http://127.0.0.1:8090/WebTours/images/mer_login.gif" (RelFrameId=, Internal ID=251)
+../Common/openStartPage.h(41):     GET /WebTours/images/mer_login.gif HTTP/1.1\r\n
+../Common/openStartPage.h(41):     Referer: http://127.0.0.1:8090/WebTours/nav.pl?in=home\r\n
+../Common/openStartPage.h(41):     Sec-Fetch-Dest: document\r\n
+../Common/openStartPage.h(41):     Sec-Fetch-Site: none\r\n
+../Common/openStartPage.h(41):     Priority: u=0, i\r\n
+../Common/openStartPage.h(41):     Sec-Fetch-Mode: navigate\r\n
+../Common/openStartPage.h(41):     DNT: 1\r\n
+../Common/openStartPage.h(41):     Sec-Fetch-User: ?1\r\n
+../Common/openStartPage.h(41):     Sec-GPC: 1\r\n
+../Common/openStartPage.h(41):     Upgrade-Insecure-Requests: 1\r\n
+../Common/openStartPage.h(41):     User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)\r\n
+../Common/openStartPage.h(41):     Accept-Encoding: gzip, deflate\r\n
+../Common/openStartPage.h(41):     Accept: */*\r\n
+../Common/openStartPage.h(41):     Connection: Keep-Alive\r\n
+../Common/openStartPage.h(41):     Host: 127.0.0.1:8090\r\n
+../Common/openStartPage.h(41):     Cookie: MSO=SID&1733947621&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50\r
+../Common/openStartPage.h(41):     \n
+../Common/openStartPage.h(41):     \r\n
+../Common/openStartPage.h(41): t=36288ms: 164-byte response headers for "http://127.0.0.1:8090/WebTours/images/mer_login.gif" (RelFrameId=, Internal ID=251)
+../Common/openStartPage.h(41):     HTTP/1.1 200 Ok\r\n
+../Common/openStartPage.h(41):     Server: Xitami\r\n
+../Common/openStartPage.h(41):     Date: Wed, 11 Dec 2024 20:07:02 GMT\r\n
+../Common/openStartPage.h(41):     Content-type: image/gif\r\n
+../Common/openStartPage.h(41):     Content-length: 679\r\n
+../Common/openStartPage.h(41):     Last-modified: Mon, 08 Feb 2010 11:51:43 GMT\r\n
+../Common/openStartPage.h(41):     \r\n
+../Common/openStartPage.h(41): t=36288ms: 166-byte response headers for "http://127.0.0.1:8090/WebTours/images/fonJM.png" (RelFrameId=, Internal ID=250)
+../Common/openStartPage.h(41):     HTTP/1.1 200 Ok\r\n
+../Common/openStartPage.h(41):     Server: Xitami\r\n
+../Common/openStartPage.h(41):     Date: Wed, 11 Dec 2024 20:07:02 GMT\r\n
+../Common/openStartPage.h(41):     Content-type: image/png\r\n
+../Common/openStartPage.h(41):     Content-length: 29614\r\n
+../Common/openStartPage.h(41):     Last-modified: Tue, 28 Feb 2017 19:34:13 GMT\r\n
+../Common/openStartPage.h(41):     \r\n
+../Common/openStartPage.h(41): t=36290ms: 679-byte response body for "http://127.0.0.1:8090/WebTours/images/mer_login.gif" (RelFrameId=, Internal ID=251)
+../Common/openStartPage.h(41): t=36290ms: Request done "http://127.0.0.1:8090/WebTours/images/mer_login.gif"  	[MsgId: MMSG-26000]
+../Common/openStartPage.h(41): t=36290ms: 12287-byte response body for "http://127.0.0.1:8090/WebTours/images/fonJM.png" (RelFrameId=, Internal ID=250)
+../Common/openStartPage.h(41): t=36290ms: 12287-byte response body for "http://127.0.0.1:8090/WebTours/images/fonJM.png" (RelFrameId=, Internal ID=250)
+../Common/openStartPage.h(41): t=36290ms: 5040-byte response body for "http://127.0.0.1:8090/WebTours/images/fonJM.png" (RelFrameId=, Internal ID=250)
+../Common/openStartPage.h(41): t=36290ms: Request done "http://127.0.0.1:8090/WebTours/images/fonJM.png"  	[MsgId: MMSG-26000]
+../Common/openStartPage.h(41): Registered web_reg_find successful for "Text=Welcome to the Web Tours site." (count=1)  	[MsgId: MMSG-26364]
+../Common/openStartPage.h(41): web_url("WebTours") was successful, 40145 body bytes, 2117 header bytes  	[MsgId: MMSG-26386]
+../Common/openStartPage.h(51): Notify: Transaction "Open start page" ended with a "Pass" status (Duration: 1,6339 Wasted Time: 0,0003).	[MsgId: MMSG-16871]
+../Common/login.h(3): Notify: Transaction "Login" started.	[MsgId: MMSG-16999]
+../Common/login.h(5): web_set_sockets_option started  	[MsgId: MMSG-26355]
+../Common/login.h(5): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+../Common/login.h(7): web_remove_auto_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
+../Common/login.h(7): Previous automatically added web header for "Sec-Fetch-User" removed  	[MsgId: MMSG-26587]
+../Common/login.h(7): web_remove/revert_auto_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
+../Common/login.h(9): web_reg_find started  	[MsgId: MMSG-26355]
+../Common/login.h(9): Notify: Parameter Substitution: parameter "login" =  "GCVkLZ"	[MsgId: MMSG-13992]
+../Common/login.h(9): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+../Common/login.h(11): web_submit_data("login.pl") started  	[MsgId: MMSG-26355]
+../Common/login.h(11): Notify: Parameter Substitution: parameter "userSession" =  "140457.482462535HcctHiVpHftVzzzHtDDtipzQAfcf"	[MsgId: MMSG-13992]
+../Common/login.h(11): Notify: Parameter Substitution: parameter "login" =  "GCVkLZ"	[MsgId: MMSG-13992]
+../Common/login.h(11): Notify: Parameter Substitution: parameter "password" =  "SltEwI"	[MsgId: MMSG-13992]
+../Common/login.h(11): t=36291ms: Already connected [0] to 127.0.0.1:8090  	[MsgId: MMSG-26000]
+../Common/login.h(11): t=36291ms: 588-byte request headers for "http://127.0.0.1:8090/WebTours/login.pl" (RelFrameId=1, Internal ID=252)
+../Common/login.h(11):     POST /WebTours/login.pl HTTP/1.1\r\n
+../Common/login.h(11):     Content-Type: application/x-www-form-urlencoded\r\n
+../Common/login.h(11):     Cache-Control: no-cache\r\n
+../Common/login.h(11):     Referer: http://127.0.0.1:8090/WebTours/nav.pl?in=home\r\n
+../Common/login.h(11):     Sec-Fetch-Dest: document\r\n
+../Common/login.h(11):     Sec-Fetch-Site: none\r\n
+../Common/login.h(11):     Priority: u=0, i\r\n
+../Common/login.h(11):     Sec-Fetch-Mode: navigate\r\n
+../Common/login.h(11):     DNT: 1\r\n
+../Common/login.h(11):     Sec-GPC: 1\r\n
+../Common/login.h(11):     Upgrade-Insecure-Requests: 1\r\n
+../Common/login.h(11):     User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)\r\n
+../Common/login.h(11):     Accept-Encoding: gzip, deflate\r\n
+../Common/login.h(11):     Accept: */*\r\n
+../Common/login.h(11):     Connection: Keep-Alive\r\n
+../Common/login.h(11):     Host: 127.0.0.1:8090\r\n
+../Common/login.h(11):     Cookie: MSO=SID&1733947621&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50\r
+../Common/login.h(11):     \n
+../Common/login.h(11):     Content-Length: 126\r\n
+../Common/login.h(11):     \r\n
+../Common/login.h(11): t=36292ms: 126-byte request body for "http://127.0.0.1:8090/WebTours/login.pl" (RelFrameId=1, Internal ID=252)
+../Common/login.h(11):     userSession=140457.482462535HcctHiVpHftVzzzHtDDtipzQAfcf&username=GCVkLZ&password=SltEwI&l
+../Common/login.h(11):     ogin.x=36&login.y=8&JSFormSubmit=off
+../Common/login.h(11): t=36698ms: 370-byte response headers for "http://127.0.0.1:8090/WebTours/login.pl" (RelFrameId=1, Internal ID=252)
+../Common/login.h(11):     HTTP/1.1 200 Ok\r\n
+../Common/login.h(11):     Server: Xitami\r\n
+../Common/login.h(11):     Date: Wed, 11 Dec 2024 20:07:02 GMT\r\n
+../Common/login.h(11):     Cache-control: no-cache\r\n
+../Common/login.h(11):     Expires: 0\r\n
+../Common/login.h(11):     Content-length: 437\r\n
+../Common/login.h(11):     Content-type: text/html; charset=ISO-8859-1\r\n
+../Common/login.h(11):     Date: Wed, 11 Dec 2024 20:07:02 GMT\r\n
+../Common/login.h(11):     Expires: 5s\r\n
+../Common/login.h(11):     Set-cookie: MTUserInfo=firstName&AcMmT&address2&025829&username&GCVkLZ&hash&90&lastName&jf
+../Common/login.h(11):     uai%0A&address1&ovPKV&creditCard&&expDate&%0A; path=/\r\n
+../Common/login.h(11):     \r\n
+../Common/login.h(11): t=36699ms: 437-byte response body for "http://127.0.0.1:8090/WebTours/login.pl" (RelFrameId=1, Internal ID=252)
+../Common/login.h(11):     <!--\n
+../Common/login.h(11):     User password was correct - added a cookie with the user's default\n
+../Common/login.h(11):     information.  Set the user up to make reservations...\n
+../Common/login.h(11):     \n
+../Common/login.h(11):     --->\n
+../Common/login.h(11):     \n
+../Common/login.h(11):     <html>\n
+../Common/login.h(11):     <title>Web Tours</title>\n
+../Common/login.h(11):     <frameset cols="160,*" border=1 frameborder=1>\n
+../Common/login.h(11):     <frame src=nav.pl?page=menu&in=home name=navbar marginheight=2 marginwidth=2 noresize scro
+../Common/login.h(11):     lling=auto>\n
+../Common/login.h(11):     <frame src=login.pl?intro=true name=info marginheight=2 marginwidth=2 noresize scrolling=a
+../Common/login.h(11):     uto>\n
+../Common/login.h(11):     </frameset>\n
+../Common/login.h(11):     \n
+../Common/login.h(11):     </body>\n
+../Common/login.h(11):     </html>
+../Common/login.h(11): Detected non-resource "http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=home" in "http://127.0.0.1:8090/WebTours/login.pl"  	[MsgId: MMSG-26574]
+../Common/login.h(11): Detected non-resource "http://127.0.0.1:8090/WebTours/login.pl?intro=true" in "http://127.0.0.1:8090/WebTours/login.pl"  	[MsgId: MMSG-26574]
+../Common/login.h(11): t=36699ms: Request done "http://127.0.0.1:8090/WebTours/login.pl"  	[MsgId: MMSG-26000]
+../Common/login.h(11): t=36699ms: Already connected [1] to 127.0.0.1:8090  	[MsgId: MMSG-26000]
+../Common/login.h(11): t=36699ms: 627-byte request headers for "http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=home" (RelFrameId=1.1, Internal ID=253)
+../Common/login.h(11):     GET /WebTours/nav.pl?page=menu&in=home HTTP/1.1\r\n
+../Common/login.h(11):     Referer: http://127.0.0.1:8090/WebTours/login.pl\r\n
+../Common/login.h(11):     Sec-Fetch-Dest: document\r\n
+../Common/login.h(11):     Sec-Fetch-Site: none\r\n
+../Common/login.h(11):     Priority: u=0, i\r\n
+../Common/login.h(11):     Sec-Fetch-Mode: navigate\r\n
+../Common/login.h(11):     DNT: 1\r\n
+../Common/login.h(11):     Sec-GPC: 1\r\n
+../Common/login.h(11):     Upgrade-Insecure-Requests: 1\r\n
+../Common/login.h(11):     User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)\r\n
+../Common/login.h(11):     Accept-Encoding: gzip, deflate\r\n
+../Common/login.h(11):     Accept: */*\r\n
+../Common/login.h(11):     Connection: Keep-Alive\r\n
+../Common/login.h(11):     Host: 127.0.0.1:8090\r\n
+../Common/login.h(11):     Cookie: MSO=SID&1733947621&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; 
+../Common/login.h(11):     MTUserInfo=firstName&AcMmT&address2&025829&username&GCVkLZ&hash&90&lastName&jfuai%0A&addre
+../Common/login.h(11):     ss1&ovPKV&creditCard&&expDate&%0A\r\n
+../Common/login.h(11):     \r\n
+../Common/login.h(11): t=36700ms: Already connected [2] to 127.0.0.1:8090  	[MsgId: MMSG-26000]
+../Common/login.h(11): t=36700ms: 622-byte request headers for "http://127.0.0.1:8090/WebTours/login.pl?intro=true" (RelFrameId=1.2, Internal ID=254)
+../Common/login.h(11):     GET /WebTours/login.pl?intro=true HTTP/1.1\r\n
+../Common/login.h(11):     Referer: http://127.0.0.1:8090/WebTours/login.pl\r\n
+../Common/login.h(11):     Sec-Fetch-Dest: document\r\n
+../Common/login.h(11):     Sec-Fetch-Site: none\r\n
+../Common/login.h(11):     Priority: u=0, i\r\n
+../Common/login.h(11):     Sec-Fetch-Mode: navigate\r\n
+../Common/login.h(11):     DNT: 1\r\n
+../Common/login.h(11):     Sec-GPC: 1\r\n
+../Common/login.h(11):     Upgrade-Insecure-Requests: 1\r\n
+../Common/login.h(11):     User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)\r\n
+../Common/login.h(11):     Accept-Encoding: gzip, deflate\r\n
+../Common/login.h(11):     Accept: */*\r\n
+../Common/login.h(11):     Connection: Keep-Alive\r\n
+../Common/login.h(11):     Host: 127.0.0.1:8090\r\n
+../Common/login.h(11):     Cookie: MSO=SID&1733947621&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; 
+../Common/login.h(11):     MTUserInfo=firstName&AcMmT&address2&025829&username&GCVkLZ&hash&90&lastName&jfuai%0A&addre
+../Common/login.h(11):     ss1&ovPKV&creditCard&&expDate&%0A\r\n
+../Common/login.h(11):     \r\n
+../Common/login.h(11): t=37225ms: 225-byte response headers for "http://127.0.0.1:8090/WebTours/login.pl?intro=true" (RelFrameId=1.2, Internal ID=254)
+../Common/login.h(11):     HTTP/1.1 200 Ok\r\n
+../Common/login.h(11):     Server: Xitami\r\n
+../Common/login.h(11):     Date: Wed, 11 Dec 2024 20:07:03 GMT\r\n
+../Common/login.h(11):     Cache-control: no-cache\r\n
+../Common/login.h(11):     Expires: 0\r\n
+../Common/login.h(11):     Content-length: 914\r\n
+../Common/login.h(11):     Content-type: text/html; charset=ISO-8859-1\r\n
+../Common/login.h(11):     Date: Wed, 11 Dec 2024 20:07:03 GMT\r\n
+../Common/login.h(11):     Expires: 5s\r\n
+../Common/login.h(11):     \r\n
+../Common/login.h(11): t=37226ms: 253-byte response headers for "http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=home" (RelFrameId=1.1, Internal ID=253)
+../Common/login.h(11):     HTTP/1.1 200 Ok\r\n
+../Common/login.h(11):     Server: Xitami\r\n
+../Common/login.h(11):     Date: Wed, 11 Dec 2024 20:07:03 GMT\r\n
+../Common/login.h(11):     Cache-control: no-cache\r\n
+../Common/login.h(11):     Expires: 0\r\n
+../Common/login.h(11):     Content-length: 1476\r\n
+../Common/login.h(11):     Content-type: text/html; charset=ISO-8859-1\r\n
+../Common/login.h(11):     Date: Wed, 11 Dec 2024 20:07:03 GMT\r\n
+../Common/login.h(11):     Expires: Tue, 10 Dec 2024 20:07:03 GMT\r\n
+../Common/login.h(11):     \r\n
+../Common/login.h(11): t=37226ms: 914-byte response body for "http://127.0.0.1:8090/WebTours/login.pl?intro=true" (RelFrameId=1.2, Internal ID=254)
+../Common/login.h(11):     <!DOCTYPE html\n
+../Common/login.h(11):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+../Common/login.h(11):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+../Common/login.h(11):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+../Common/login.h(11):     <head>\n
+../Common/login.h(11):     <title>Welcome to Web Tours</title>\n
+../Common/login.h(11):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+../Common/login.h(11):     </head>\n
+../Common/login.h(11):     <body bgcolor="#E0E7F1">\n
+../Common/login.h(11):     <p /><style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; fon
+../Common/login.h(11):     t-size : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family:
+../Common/login.h(11):      tahoma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 10pt; color: 
+../Common/login.h(11):     black}</style><BR><BR><BR><BR><BR><blockquote>Welcome, <b>GCVkLZ</b>, to the Web Tours res
+../Common/login.h(11):     ervation pages.<BR>Using the menu to the left, you can search for new flights to book, \n
+../Common/login.h(11):     or review/edit the flights already booked.  Don't forget to sign off when\n
+../Common/login.h(11):     you're done!\n
+../Common/login.h(11):     </blockquote>\n
+../Common/login.h(11):     </body>\n
+../Common/login.h(11):     </html>
+../Common/login.h(11): t=37227ms: Request done "http://127.0.0.1:8090/WebTours/login.pl?intro=true"  	[MsgId: MMSG-26000]
+../Common/login.h(11): t=37227ms: 1476-byte response body for "http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=home" (RelFrameId=1.1, Internal ID=253)
+../Common/login.h(11):     <!DOCTYPE html\n
+../Common/login.h(11):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+../Common/login.h(11):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+../Common/login.h(11):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+../Common/login.h(11):     <head>\n
+../Common/login.h(11):     <title>Web Tours Navigation Bar</title>\n
+../Common/login.h(11):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+../Common/login.h(11):     </head>\n
+../Common/login.h(11):     <body bgcolor="#F3E2E2" background="images/fonJM.png">\n
+../Common/login.h(11):     \n
+../Common/login.h(11):     <style>\n
+../Common/login.h(11):     \tblockquote {font-family: tahoma; font-size : 10pt}\n
+../Common/login.h(11):     \tH1 {font-family: tahoma; font-size : 22pt; color: #993333}\n
+../Common/login.h(11):     \tsmall {font-family: tahoma; font-size : 8pt}\n
+../Common/login.h(11):     \tH3{font-family: tahoma; font-size : 10pt; color: black}\n
+../Common/login.h(11):     \tA {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATIO
+../Common/login.h(11):     N: none}\n
+../Common/login.h(11):     \tA:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DE
+../Common/login.h(11):     CORATION: underline}\n
+../Common/login.h(11):     \tTD {font-family: tahoma; font-size : 10pt; color: black}\n
+../Common/login.h(11):     </style>\n
+../Common/login.h(11):     \n
+../Common/login.h(11):     <BR><BR><center>\n
+../Common/login.h(11):     \n
+../Common/login.h(11):     <br clear><center><A HREF="welcome.pl?page=search" TARGET="body"><IMG BORDER="0" SRC=/WebT
+../Common/login.h(11):     ours/images/flights.gif \n
+../Common/login.h(11):     ALT="Search Flights Button"></A>\n
+../Common/login.h(11):     <br clear><A HREF="welcome.pl?page=itinerary" TARGET="body"><IMG BORDER="0" SRC=/WebTours/
+../Common/login.h(11):     images/itinerary.gif \n
+../Common/login.h(11):     ALT="Itinerary Button"></A>\n
+../Common/login.h(11):     <br clear><A HREF="welcome.pl?page=menus" TARGET="body"><IMG BORDER="0" SRC=/WebTours/imag
+../Common/login.h(11):     es/in_home.gif \n
+../Common/login.h(11):     ALT="Home Button"></A>\n
+../Common/login.h(11):     <br clear><A HREF="welcome.pl?signOff=1" TARGET="body"><IMG BORDER="0" SRC=/WebTours/image
+../Common/login.h(11):     s/signoff.gif \n
+../Common/login.h(11):     ALT="SignOff Button"></A></center>\n
+../Common/login.h(11):     \n
+../Common/login.h(11):     </body>\n
+../Common/login.h(11):     </html>\n
+../Common/login.h(11): Resource "http://127.0.0.1:8090/WebTours/images/fonJM.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+../Common/login.h(11): Found resource "http://127.0.0.1:8090/WebTours/images/flights.gif" in HTML "http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+../Common/login.h(11): Found resource "http://127.0.0.1:8090/WebTours/images/itinerary.gif" in HTML "http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+../Common/login.h(11): Resource "http://127.0.0.1:8090/WebTours/images/in_home.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+../Common/login.h(11): Found resource "http://127.0.0.1:8090/WebTours/images/signoff.gif" in HTML "http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+../Common/login.h(11): t=37228ms: Request done "http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26000]
+../Common/login.h(11): t=37228ms: Already connected [0] to 127.0.0.1:8090  	[MsgId: MMSG-26000]
+../Common/login.h(11): t=37228ms: 637-byte request headers for "http://127.0.0.1:8090/WebTours/images/flights.gif" (RelFrameId=, Internal ID=255)
+../Common/login.h(11):     GET /WebTours/images/flights.gif HTTP/1.1\r\n
+../Common/login.h(11):     Referer: http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=home\r\n
+../Common/login.h(11):     Sec-Fetch-Dest: document\r\n
+../Common/login.h(11):     Sec-Fetch-Site: none\r\n
+../Common/login.h(11):     Priority: u=0, i\r\n
+../Common/login.h(11):     Sec-Fetch-Mode: navigate\r\n
+../Common/login.h(11):     DNT: 1\r\n
+../Common/login.h(11):     Sec-GPC: 1\r\n
+../Common/login.h(11):     Upgrade-Insecure-Requests: 1\r\n
+../Common/login.h(11):     User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)\r\n
+../Common/login.h(11):     Accept-Encoding: gzip, deflate\r\n
+../Common/login.h(11):     Accept: */*\r\n
+../Common/login.h(11):     Connection: Keep-Alive\r\n
+../Common/login.h(11):     Host: 127.0.0.1:8090\r\n
+../Common/login.h(11):     Cookie: MSO=SID&1733947621&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; 
+../Common/login.h(11):     MTUserInfo=firstName&AcMmT&address2&025829&username&GCVkLZ&hash&90&lastName&jfuai%0A&addre
+../Common/login.h(11):     ss1&ovPKV&creditCard&&expDate&%0A\r\n
+../Common/login.h(11):     \r\n
+../Common/login.h(11): t=37228ms: Already connected [2] to 127.0.0.1:8090  	[MsgId: MMSG-26000]
+../Common/login.h(11): t=37228ms: 639-byte request headers for "http://127.0.0.1:8090/WebTours/images/itinerary.gif" (RelFrameId=, Internal ID=256)
+../Common/login.h(11):     GET /WebTours/images/itinerary.gif HTTP/1.1\r\n
+../Common/login.h(11):     Referer: http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=home\r\n
+../Common/login.h(11):     Sec-Fetch-Dest: document\r\n
+../Common/login.h(11):     Sec-Fetch-Site: none\r\n
+../Common/login.h(11):     Priority: u=0, i\r\n
+../Common/login.h(11):     Sec-Fetch-Mode: navigate\r\n
+../Common/login.h(11):     DNT: 1\r\n
+../Common/login.h(11):     Sec-GPC: 1\r\n
+../Common/login.h(11):     Upgrade-Insecure-Requests: 1\r\n
+../Common/login.h(11):     User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)\r\n
+../Common/login.h(11):     Accept-Encoding: gzip, deflate\r\n
+../Common/login.h(11):     Accept: */*\r\n
+../Common/login.h(11):     Connection: Keep-Alive\r\n
+../Common/login.h(11):     Host: 127.0.0.1:8090\r\n
+../Common/login.h(11):     Cookie: MSO=SID&1733947621&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; 
+../Common/login.h(11):     MTUserInfo=firstName&AcMmT&address2&025829&username&GCVkLZ&hash&90&lastName&jfuai%0A&addre
+../Common/login.h(11):     ss1&ovPKV&creditCard&&expDate&%0A\r\n
+../Common/login.h(11):     \r\n
+../Common/login.h(11): t=37229ms: Already connected [3] to 127.0.0.1:8090  	[MsgId: MMSG-26000]
+../Common/login.h(11): t=37229ms: 637-byte request headers for "http://127.0.0.1:8090/WebTours/images/signoff.gif" (RelFrameId=, Internal ID=257)
+../Common/login.h(11):     GET /WebTours/images/signoff.gif HTTP/1.1\r\n
+../Common/login.h(11):     Referer: http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=home\r\n
+../Common/login.h(11):     Sec-Fetch-Dest: document\r\n
+../Common/login.h(11):     Sec-Fetch-Site: none\r\n
+../Common/login.h(11):     Priority: u=0, i\r\n
+../Common/login.h(11):     Sec-Fetch-Mode: navigate\r\n
+../Common/login.h(11):     DNT: 1\r\n
+../Common/login.h(11):     Sec-GPC: 1\r\n
+../Common/login.h(11):     Upgrade-Insecure-Requests: 1\r\n
+../Common/login.h(11):     User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)\r\n
+../Common/login.h(11):     Accept-Encoding: gzip, deflate\r\n
+../Common/login.h(11):     Accept: */*\r\n
+../Common/login.h(11):     Connection: Keep-Alive\r\n
+../Common/login.h(11):     Host: 127.0.0.1:8090\r\n
+../Common/login.h(11):     Cookie: MSO=SID&1733947621&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; 
+../Common/login.h(11):     MTUserInfo=firstName&AcMmT&address2&025829&username&GCVkLZ&hash&90&lastName&jfuai%0A&addre
+../Common/login.h(11):     ss1&ovPKV&creditCard&&expDate&%0A\r\n
+../Common/login.h(11):     \r\n
+../Common/login.h(11): t=37252ms: 164-byte response headers for "http://127.0.0.1:8090/WebTours/images/signoff.gif" (RelFrameId=, Internal ID=257)
+../Common/login.h(11):     HTTP/1.1 200 Ok\r\n
+../Common/login.h(11):     Server: Xitami\r\n
+../Common/login.h(11):     Date: Wed, 11 Dec 2024 20:07:03 GMT\r\n
+../Common/login.h(11):     Content-type: image/gif\r\n
+../Common/login.h(11):     Content-length: 751\r\n
+../Common/login.h(11):     Last-modified: Mon, 08 Feb 2010 11:51:43 GMT\r\n
+../Common/login.h(11):     \r\n
+../Common/login.h(11): t=37252ms: 164-byte response headers for "http://127.0.0.1:8090/WebTours/images/flights.gif" (RelFrameId=, Internal ID=255)
+../Common/login.h(11):     HTTP/1.1 200 Ok\r\n
+../Common/login.h(11):     Server: Xitami\r\n
+../Common/login.h(11):     Date: Wed, 11 Dec 2024 20:07:03 GMT\r\n
+../Common/login.h(11):     Content-type: image/gif\r\n
+../Common/login.h(11):     Content-length: 726\r\n
+../Common/login.h(11):     Last-modified: Mon, 08 Feb 2010 11:51:43 GMT\r\n
+../Common/login.h(11):     \r\n
+../Common/login.h(11): t=37252ms: 164-byte response headers for "http://127.0.0.1:8090/WebTours/images/itinerary.gif" (RelFrameId=, Internal ID=256)
+../Common/login.h(11):     HTTP/1.1 200 Ok\r\n
+../Common/login.h(11):     Server: Xitami\r\n
+../Common/login.h(11):     Date: Wed, 11 Dec 2024 20:07:03 GMT\r\n
+../Common/login.h(11):     Content-type: image/gif\r\n
+../Common/login.h(11):     Content-length: 733\r\n
+../Common/login.h(11):     Last-modified: Mon, 08 Feb 2010 11:51:43 GMT\r\n
+../Common/login.h(11):     \r\n
+../Common/login.h(11): t=37253ms: 751-byte response body for "http://127.0.0.1:8090/WebTours/images/signoff.gif" (RelFrameId=, Internal ID=257)
+../Common/login.h(11): t=37253ms: Request done "http://127.0.0.1:8090/WebTours/images/signoff.gif"  	[MsgId: MMSG-26000]
+../Common/login.h(11): t=37253ms: 726-byte response body for "http://127.0.0.1:8090/WebTours/images/flights.gif" (RelFrameId=, Internal ID=255)
+../Common/login.h(11): t=37253ms: Request done "http://127.0.0.1:8090/WebTours/images/flights.gif"  	[MsgId: MMSG-26000]
+../Common/login.h(11): t=37253ms: 733-byte response body for "http://127.0.0.1:8090/WebTours/images/itinerary.gif" (RelFrameId=, Internal ID=256)
+../Common/login.h(11): t=37253ms: Request done "http://127.0.0.1:8090/WebTours/images/itinerary.gif"  	[MsgId: MMSG-26000]
+../Common/login.h(11): Registered web_reg_find successful for "Text=Welcome, <b>GCVkLZ</b>, to the Web Tours reservation pages." (count=1)  	[MsgId: MMSG-26364]
+../Common/login.h(11): web_submit_data("login.pl") was successful, 5037 body bytes, 1340 header bytes  	[MsgId: MMSG-26386]
+../Common/login.h(28): Notify: Transaction "Login" ended with a "Pass" status (Duration: 0,9627 Wasted Time: 0,0000).	[MsgId: MMSG-16871]
+../Common/logout.h(3): Notify: Transaction "Logout" started.	[MsgId: MMSG-16999]
+../Common/logout.h(5): web_reg_find started  	[MsgId: MMSG-26355]
+../Common/logout.h(5): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+../Common/logout.h(7): web_url("SignOff Button") started  	[MsgId: MMSG-26355]
+../Common/logout.h(7): t=37254ms: Already connected [0] to 127.0.0.1:8090  	[MsgId: MMSG-26000]
+../Common/logout.h(7): t=37254ms: 642-byte request headers for "http://127.0.0.1:8090/WebTours/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=258)
+../Common/logout.h(7):     GET /WebTours/welcome.pl?signOff=1 HTTP/1.1\r\n
+../Common/logout.h(7):     Referer: http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=flights\r\n
+../Common/logout.h(7):     Sec-Fetch-Dest: document\r\n
+../Common/logout.h(7):     Sec-Fetch-Site: none\r\n
+../Common/logout.h(7):     Priority: u=0, i\r\n
+../Common/logout.h(7):     Sec-Fetch-Mode: navigate\r\n
+../Common/logout.h(7):     DNT: 1\r\n
+../Common/logout.h(7):     Sec-GPC: 1\r\n
+../Common/logout.h(7):     Upgrade-Insecure-Requests: 1\r\n
+../Common/logout.h(7):     User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)\r\n
+../Common/logout.h(7):     Accept-Encoding: gzip, deflate\r\n
+../Common/logout.h(7):     Accept: */*\r\n
+../Common/logout.h(7):     Connection: Keep-Alive\r\n
+../Common/logout.h(7):     Host: 127.0.0.1:8090\r\n
+../Common/logout.h(7):     Cookie: MSO=SID&1733947621&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; 
+../Common/logout.h(7):     MTUserInfo=firstName&AcMmT&address2&025829&username&GCVkLZ&hash&90&lastName&jfuai%0A&addre
+../Common/logout.h(7):     ss1&ovPKV&creditCard&&expDate&%0A\r\n
+../Common/logout.h(7):     \r\n
+../Common/logout.h(7): t=37581ms: 386-byte response headers for "http://127.0.0.1:8090/WebTours/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=258)
+../Common/logout.h(7):     HTTP/1.1 200 Ok\r\n
+../Common/logout.h(7):     Server: Xitami\r\n
+../Common/logout.h(7):     Date: Wed, 11 Dec 2024 20:07:03 GMT\r\n
+../Common/logout.h(7):     Cache-control: no-cache\r\n
+../Common/logout.h(7):     Expires: 0\r\n
+../Common/logout.h(7):     Content-length: 630\r\n
+../Common/logout.h(7):     Content-type: text/html; charset=ISO-8859-1\r\n
+../Common/logout.h(7):     Date: Wed, 11 Dec 2024 20:07:03 GMT\r\n
+../Common/logout.h(7):     Set-cookie: MTUserInfo=; path=/; expires=Tue, 10-Dec-2024 20:07:03 GMT\r\n
+../Common/logout.h(7):     Set-cookie: MSO=SID&1733947623&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&
+../Common/logout.h(7):     50; path=/\r\n
+../Common/logout.h(7):     \r\n
+../Common/logout.h(7): t=37582ms: 630-byte response body for "http://127.0.0.1:8090/WebTours/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=258)
+../Common/logout.h(7):     <!-- \n
+../Common/logout.h(7):      A Session ID has been created and loaded into a cookie called MSO.\n
+../Common/logout.h(7):      Also, the server options have been loaded into the cookie called\n
+../Common/logout.h(7):      MSO as well.  The server options can be set via the Admin page.\n
+../Common/logout.h(7):      --->\n
+../Common/logout.h(7):     \n
+../Common/logout.h(7):     <html>\n
+../Common/logout.h(7):     <title>Web Tours</title>\n
+../Common/logout.h(7):        <!-- Frame Set -->\n
+../Common/logout.h(7):        <frameset cols="160,*" border=1 frameborder=1>\n
+../Common/logout.h(7):           <!-- Navigation Frame -->\n
+../Common/logout.h(7):           <frame src=nav.pl?in=home name=navbar marginheight=2 marginwidth=2 \n
+../Common/logout.h(7):                 noresize scrolling=auto>\n
+../Common/logout.h(7):           <!-- Home Frame -->\n
+../Common/logout.h(7):           <frame src=/WebTours/home.html name=info marginheight=2 marginwidth=2 \n
+../Common/logout.h(7):                 noresize scrolling=auto>\n
+../Common/logout.h(7):        </frameset>\n
+../Common/logout.h(7):     \n
+../Common/logout.h(7):     </body>\n
+../Common/logout.h(7):     </html>
+../Common/logout.h(7): Detected non-resource "http://127.0.0.1:8090/WebTours/nav.pl?in=home" in "http://127.0.0.1:8090/WebTours/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+../Common/logout.h(7): Detected non-resource "http://127.0.0.1:8090/WebTours/home.html" in "http://127.0.0.1:8090/WebTours/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+../Common/logout.h(7): Retrieving data from cache for "http://127.0.0.1:8090/WebTours/home.html"  	[MsgId: MMSG-26558]
+../Common/logout.h(7): t=37582ms: 1322-byte response body retrieved from cache for "http://127.0.0.1:8090/WebTours/home.html" (RelFrameId=1.2, Internal ID=260)
+../Common/logout.h(7):     <HTML>\n
+../Common/logout.h(7):     <HEAD>\n
+../Common/logout.h(7):     \t<title>Web Tours</title>\n
+../Common/logout.h(7):     </head>\n
+../Common/logout.h(7):     <style>\n
+../Common/logout.h(7):     \tblockquote {font-family: tahoma; font-size : 10pt}\n
+../Common/logout.h(7):     \tH1 {font-family: tahoma; font-size : 22pt; color: #003366}\n
+../Common/logout.h(7):     \tsmall {font-family: tahoma; font-size : 8pt}\n
+../Common/logout.h(7):     \tH3{font-family: tahoma; font-size : 10pt; color: black}\n
+../Common/logout.h(7):     \tA {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATIO
+../Common/logout.h(7):     N: none}\n
+../Common/logout.h(7):     \tA:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DE
+../Common/logout.h(7):     CORATION: underline}\n
+../Common/logout.h(7):     \tTD {font-family: tahoma; font-size : 10pt; color: black}\n
+../Common/logout.h(7):     </style>\n
+../Common/logout.h(7):     <body bgcolor=#e0e7f1>\n
+../Common/logout.h(7):     <BR>\n
+../Common/logout.h(7):     <BR>\n
+../Common/logout.h(7):     <BR>\n
+../Common/logout.h(7):     <br >\n
+../Common/logout.h(7):     <table border=0>\n
+../Common/logout.h(7):     <tr><td></td></tr>\n
+../Common/logout.h(7):     <TR><TD></TD></TR>\n
+../Common/logout.h(7):     <TR><TD>\n
+../Common/logout.h(7):     <blockquote>\n
+../Common/logout.h(7):     <H1><b>Web Tours</b></H1>\n
+../Common/logout.h(7):     Welcome to the Web Tours site.\n
+../Common/logout.h(7):     <br>\n
+../Common/logout.h(7):     To make reservations,please enter your account information to the left.\n
+../Common/logout.h(7):     <br>\n
+../Common/logout.h(7):     If you haven't registered yet, <A href="login.pl?username=&amp;password=&amp;getInfo=true"
+../Common/logout.h(7):      ><B>sign up now</B></A> to get access to all our resources.\n
+../Common/logout.h(7):     <br>\n
+../Common/logout.h(7):     To configure the server options, use <A href="admin.pl" target=body ><b>administration</b>
+../Common/logout.h(7):     </A> link.\n
+../Common/logout.h(7):     <br><br><br><br><br><br>\n
+../Common/logout.h(7):     <br><small>\n
+../Common/logout.h(7):     This product uses parts of the SMT Kernel, Copyright (c) 1991-99 <A href="http://www.imati
+../Common/logout.h(7):     x.com" target=new><B><small>iMatix Corporation</small></B></A> \n
+../Common/logout.h(7):     </small>\n
+../Common/logout.h(7):     </blockquote></TD>\n
+../Common/logout.h(7):     <TD></TD></TR>\n
+../Common/logout.h(7):     </table>\n
+../Common/logout.h(7):     </body>\n
+../Common/logout.h(7):     </html>\n
+../Common/logout.h(7): t=37583ms: Request done "http://127.0.0.1:8090/WebTours/welcome.pl?signOff=1"  	[MsgId: MMSG-26000]
+../Common/logout.h(7): t=37583ms: Already connected [1] to 127.0.0.1:8090  	[MsgId: MMSG-26000]
+../Common/logout.h(7): t=37583ms: 504-byte request headers for "http://127.0.0.1:8090/WebTours/nav.pl?in=home" (RelFrameId=1.1, Internal ID=259)
+../Common/logout.h(7):     GET /WebTours/nav.pl?in=home HTTP/1.1\r\n
+../Common/logout.h(7):     Referer: http://127.0.0.1:8090/WebTours/welcome.pl?signOff=1\r\n
+../Common/logout.h(7):     Sec-Fetch-Dest: document\r\n
+../Common/logout.h(7):     Sec-Fetch-Site: none\r\n
+../Common/logout.h(7):     Priority: u=0, i\r\n
+../Common/logout.h(7):     Sec-Fetch-Mode: navigate\r\n
+../Common/logout.h(7):     DNT: 1\r\n
+../Common/logout.h(7):     Sec-GPC: 1\r\n
+../Common/logout.h(7):     Upgrade-Insecure-Requests: 1\r\n
+../Common/logout.h(7):     User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)\r\n
+../Common/logout.h(7):     Accept-Encoding: gzip, deflate\r\n
+../Common/logout.h(7):     Accept: */*\r\n
+../Common/logout.h(7):     Connection: Keep-Alive\r\n
+../Common/logout.h(7):     Host: 127.0.0.1:8090\r\n
+../Common/logout.h(7):     Cookie: MSO=SID&1733947623&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50\r
+../Common/logout.h(7):     \n
+../Common/logout.h(7):     \r\n
+../Common/logout.h(7): t=37979ms: 253-byte response headers for "http://127.0.0.1:8090/WebTours/nav.pl?in=home" (RelFrameId=1.1, Internal ID=259)
+../Common/logout.h(7):     HTTP/1.1 200 Ok\r\n
+../Common/logout.h(7):     Server: Xitami\r\n
+../Common/logout.h(7):     Date: Wed, 11 Dec 2024 20:07:04 GMT\r\n
+../Common/logout.h(7):     Cache-control: no-cache\r\n
+../Common/logout.h(7):     Expires: 0\r\n
+../Common/logout.h(7):     Content-length: 2748\r\n
+../Common/logout.h(7):     Content-type: text/html; charset=ISO-8859-1\r\n
+../Common/logout.h(7):     Date: Wed, 11 Dec 2024 20:07:03 GMT\r\n
+../Common/logout.h(7):     Expires: Tue, 10 Dec 2024 20:07:03 GMT\r\n
+../Common/logout.h(7):     \r\n
+../Common/logout.h(7): t=37980ms: 2748-byte response body for "http://127.0.0.1:8090/WebTours/nav.pl?in=home" (RelFrameId=1.1, Internal ID=259)
+../Common/logout.h(7):     <!-- Comments option is ON \n
+../Common/logout.h(7):     \n
+../Common/logout.h(7):     These are used to make the automated parsing difficult.\n
+../Common/logout.h(7):     User must try and get the UserSession value.  There are several here, with similar boundar
+../Common/logout.h(7):     ies.\n
+../Common/logout.h(7):     But none are the right value.\n
+../Common/logout.h(7):     \n
+../Common/logout.h(7):     <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">\n
+../Common/logout.h(7):     <HTML><HEAD><TITLE>Web Tours Navigation Bar</TITLE>\n
+../Common/logout.h(7):     <style>\n
+../Common/logout.h(7):     \tblockquote {font-family: tahoma; font-size : 10pt}\n
+../Common/logout.h(7):     \tH1 {font-family: tahoma; font-size : 22pt;color: #993333}\n
+../Common/logout.h(7):     \tsmall {font-family: tahoma; font-size : 8pt}\n
+../Common/logout.h(7):     </style>\n
+../Common/logout.h(7):     </HEAD><BODY BGCOLOR="#E0E7F1"><br clear>\n
+../Common/logout.h(7):     <form method=post action=login.pl target=body>\n
+../Common/logout.h(7):     <input type=hidden name=userSession value=1694140457.482624544HcctHiVpHzcftDDtipzQAfHf>\n
+../Common/logout.h(7):     <form method=post action=error.pl onSubmit='doJSformSubmit1(this)' target=body>\n
+../Common/logout.h(7):     <input type=hidden name=userSession value=1140457.482624544HcctHiVpHzcftDDtipzQAfHf>\n
+../Common/logout.h(7):     <table border=0>\n
+../Common/logout.h(7):     <tr><td><font face=sans-serif size=2>&nbsp;</font><td><tr>\n
+../Common/logout.h(7):     <tr><td><font face=sans-serif size=2>&nbsp;<b>Username</b></font><td><tr>\n
+../Common/logout.h(7):     <tr><td><input type=text name=username value='' size=18 maxlength=30>\n
+../Common/logout.h(7):     <tr><td><font face=sans-serif size=2>&nbsp;<b>Password</b></font>\n
+../Common/logout.h(7):     <tr><td><input type=password name=password value='' size=18 maxlength=30>\n
+../Common/logout.h(7):     <tr><td><input type=image name=login value=Login alt=Login border=1 src='/WebTours/images/
+../Common/logout.h(7):     mer_login.gif'>\n
+../Common/logout.h(7):     </table></form>\n
+../Common/logout.h(7):     </BODY></HTML>\n
+../Common/logout.h(7):     -->\n
+../Common/logout.h(7):     <!DOCTYPE html\n
+../Common/logout.h(7):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+../Common/logout.h(7):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+../Common/logout.h(7):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+../Common/logout.h(7):     <head>\n
+../Common/logout.h(7):     <title>Web Tours Navigation Bar</title>\n
+../Common/logout.h(7):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+../Common/logout.h(7):     </head>\n
+../Common/logout.h(7):     <body bgcolor="#F3E2E2" background="images/fonJM.png">\n
+../Common/logout.h(7):     <style>\n
+../Common/logout.h(7):     blockquote {font-family: tahoma; font-size : 10pt}\n
+../Common/logout.h(7):     H1 {font-family: tahoma; font-size : 22pt; color: #993333}\n
+../Common/logout.h(7):     H3 {font-family: tahoma; font-size : 10pt; color: black}\n
+../Common/logout.h(7):     small {font-family: tahoma; font-size : 8pt}\n
+../Common/logout.h(7):     </style>\n
+../Common/logout.h(7):     <form method=post action=login.pl target=body>\n
+../Common/logout.h(7):     <input type=hidden name=userSession value=140457.482624544HcctHiVpHzcftDDtipzQAfHf>\n
+../Common/logout.h(7):     <table border=0><tr><td>&nbsp;</td>\n
+../Common/logout.h(7):     <td>&nbsp;</td>\n
+../Common/logout.h(7):     <tr><td>&nbsp;</td>\n
+../Common/logout.h(7):     <td>&nbsp;</td></tr>\n
+../Common/logout.h(7):     <tr><td>&nbsp;</td>\n
+../Common/logout.h(7):     <td><small>&nbsp;Username</small></td></tr>\n
+../Common/logout.h(7):     <tr><td>&nbsp;</td>\n
+../Common/logout.h(7):     <td><input type=text name=username value='' size=14 maxlength=14></td></tr>\n
+../Common/logout.h(7):     <tr><td>&nbsp;</td>\n
+../Common/logout.h(7):     <td><small>&nbsp;Password</small></td>\n
+../Common/logout.h(7):     <tr><td>&nbsp;</td>\n
+../Common/logout.h(7):     <td><input type=password name=password value='' size=14 maxlength=14></td></tr>\n
+../Common/logout.h(7):     <tr><td>&nbsp;</td>\n
+../Common/logout.h(7):     <td>&nbsp;<tr><td>\n
+../Common/logout.h(7):     <tr><td>&nbsp;</td>\n
+../Common/logout.h(7):     <td><input type=image name=login value=Login alt=Login border=1 \n
+../Common/logout.h(7):     src='/WebTours/images/mer_login.gif'>\n
+../Common/logout.h(7):     <tr><td>&nbsp;</td>\n
+../Common/logout.h(7):     </table><input type=hidden name=JSFormSubmit value='off'>\n
+../Common/logout.h(7):     </form>\n
+../Common/logout.h(7):     \n
+../Common/logout.h(7):     </body>\n
+../Common/logout.h(7):     </html>\n
+../Common/logout.h(7): Resource "http://127.0.0.1:8090/WebTours/images/fonJM.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+../Common/logout.h(7): Resource "http://127.0.0.1:8090/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+../Common/logout.h(7): t=37982ms: Request done "http://127.0.0.1:8090/WebTours/nav.pl?in=home"  	[MsgId: MMSG-26000]
+../Common/logout.h(7): Registered web_reg_find successful for "Text=If you haven't registered yet," (count=1)  	[MsgId: MMSG-26364]
+../Common/logout.h(7): web_url("SignOff Button") was successful, 3378 body bytes, 639 header bytes  	[MsgId: MMSG-26386]
+../Common/logout.h(17): Notify: Transaction "Logout" ended with a "Pass" status (Duration: 0,7284 Wasted Time: 0,0000).	[MsgId: MMSG-16871]
+Action.c(7): Notify: Transaction "01_Login" ended with a "Pass" status (Duration: 3,3253 Wasted Time: 0,0004).	[MsgId: MMSG-16871]
+Ending action Action.	[MsgId: MMSG-15918]
+Action was aborted.	[MsgId: MMSG-10694]
+Ending Vuser...	[MsgId: MMSG-15966]
+Starting action vuser_end.	[MsgId: MMSG-15919]
+Ending action vuser_end.	[MsgId: MMSG-15918]
+Vuser Terminated.	[MsgId: MMSG-15963]
+t=37982ms: Closed connection [0] to 127.0.0.1:8090 after completing 5 request(s)  	[MsgId: MMSG-26000]
+t=37983ms: Closed connection [1] to 127.0.0.1:8090 after completing 6 request(s)  	[MsgId: MMSG-26000]
+t=37983ms: Closed connection [2] to 127.0.0.1:8090 after completing 4 request(s)  	[MsgId: MMSG-26000]
+t=37983ms: Closed connection [3] to 127.0.0.1:8090 after completing 2 request(s)  	[MsgId: MMSG-26000]
+t=37983ms: Closed connection [4] to 127.0.0.1:8090 after completing 1 request(s)  	[MsgId: MMSG-26000]
+HTML-Mode memory management statistics: Reusable=5, NonReusable=0, CsMemBlockSize=4096, checks disabled  	[MsgId: MMSG-26000]
+Vuser 0 (thread 21472), ended OK."	[MsgId: MMSG-10695]

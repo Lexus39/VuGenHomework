@@ -9,6 +9,7 @@
 #include "../Common/openStartPage.h"
 #include "../Common/login.h"
 #include "../Common/logout.h"
+#include "../Common/openSearchFlightsPage.h"
 
 //--------------------------------------------------------------------
 // Global Variables

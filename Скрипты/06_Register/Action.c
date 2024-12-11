@@ -14,6 +14,8 @@ Action()
 	
 	openStartPage();
 	
+	lr_think_time(5);
+	
 	lr_start_transaction("Register");
 	
 	web_add_auto_header("Sec-Fetch-Dest", 
@@ -51,6 +53,8 @@ Action()
 		"Snapshot=t2.inf", 
 		"Mode=HTML", 
 		LAST);
+	
+	lr_think_time(20);
 
 	web_add_header("Origin", 
 		"http://127.0.0.1:8090");
@@ -94,6 +98,8 @@ Action()
 		LAST);
 	
 	lr_end_transaction("Register", LR_PASS);
+	
+	lr_think_time(5);
 	
 	logout();
 
