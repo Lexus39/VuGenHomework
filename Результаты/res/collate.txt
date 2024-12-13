@@ -1,5 +1,0 @@
-[Diagnostics]
-Status=-1
-[Collate Recovery]
-Scenario=C:\Users\Алексей\Documents\VuGen\Scripts\VuGenHomework\VuGenHomework\Сценарии\DebugScenario.lrs
-Completed=0

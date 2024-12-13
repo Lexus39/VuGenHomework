@@ -1,2 +1,0 @@
-[Hosts]
-localhost=c:\users\алексей\documents\vugen\scripts\vugenhomework\vugenhomework\результаты\res\localhost_1.eve
