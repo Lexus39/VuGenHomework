@@ -1,0 +1,53 @@
+28 11 1734111667 2 182028920 -139437180 1699524
+28 4 01_Login 14 1734111667 0 01_login_1 localhost 0 1
+28 10 localhost 28 0 0
+28 4 02_searchflights_1_1 14 1734111667 0 02_searchflights_1_1 localhost 0 1
+28 4 03_BuyTicket 5 1734111667 0 03_buyticket_1 localhost 0 1
+28 0 01_Login 14 1734111667 0 localhost 0
+28 8 01_Login 14  0 0
+28 2 01_Login 14 1734111667 0 p 0 0
+28 0 02_searchflights_1_1 14 1734111667 0 localhost 0
+28 8 02_searchflights_1_1 14  0 0
+28 0 03_BuyTicket 5 1734111667 0 localhost 0
+28 8 03_BuyTicket 5  0 0
+28 2 03_BuyTicket 5 1734111667 0 p 0 0
+28 2 02_searchflights_1_1 14 1734111667 0 p 0 0
+28 4 04_getitenerarylist_1_1 14 1734111668 0 04_getitenerarylist_1_1_1_1_1_1 localhost 0 1
+28 0 04_getitenerarylist_1_1 14 1734111668 0 localhost 0
+28 8 04_getitenerarylist_1_1 14  0 0
+28 2 04_getitenerarylist_1_1 14 1734111668 0 p 0 0
+28 4 05_DeleteBooking 14 1734111668 0 05_deletebooking_1 localhost 0 1
+28 0 05_DeleteBooking 14 1734111668 0 localhost 0
+28 8 05_DeleteBooking 14  0 0
+28 2 05_DeleteBooking 14 1734111668 0 p 0 0
+28 4 06_register_1_1 5 1734111668 0 06_register_1_1_1 localhost 0 1
+28 0 06_register_1_1 5 1734111668 0 localhost 0
+28 8 06_register_1_1 5  0 0
+28 2 06_register_1_1 5 1734111668 0 p 0 0
+28 4 03_BuyTicket 18 1734111669 0 03_buyticket_1 localhost 0 1
+28 0 03_BuyTicket 18 1734111669 0 localhost 0
+28 8 03_BuyTicket 18  0 0
+28 2 03_BuyTicket 18 1734111669 0 p 0 0
+28 4 06_register_1_1 28 1734111669 0 06_register_1_1_1 localhost 0 1
+28 0 06_register_1_1 28 1734111669 0 localhost 0
+28 8 06_register_1_1 28  0 0
+28 2 06_register_1_1 28 1734111669 0 p 0 0
+28 4 03_BuyTicket 42 1734111671 0 03_buyticket_1 localhost 0 1
+28 0 03_BuyTicket 42 1734111671 0 localhost 0
+28 8 03_BuyTicket 42  0 0
+28 2 03_BuyTicket 42 1734111671 0 p 0 0
+28 4 03_BuyTicket 43 1734111673 0 03_buyticket_1 localhost 0 1
+28 0 03_BuyTicket 43 1734111673 0 localhost 0
+28 8 03_BuyTicket 43  0 0
+28 2 03_BuyTicket 43 1734111673 0 p 0 0
+28 1 04_getitenerarylist_1_1 14 1734112987 0 2
+28 1 01_Login 14 1734112987 0 2
+28 1 05_DeleteBooking 14 1734112987 0 2
+28 1 06_register_1_1 5 1734112992 0 2
+28 1 06_register_1_1 28 1734112993 0 2
+28 1 03_BuyTicket 18 1734112993 0 2
+28 1 03_BuyTicket 43 1734112993 0 2
+28 1 03_BuyTicket 5 1734112993 0 2
+28 1 03_BuyTicket 42 1734112993 0 2
+28 1 02_searchflights_1_1 14 1734113026 0 2
+28 12 1734113026 1 1734113026 0 1734113026

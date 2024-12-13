@@ -72,7 +72,7 @@ Action()
 	
 	lr_end_transaction("Buy ticket", LR_PASS);
 	//lr_think_time(5);
-	//logout();
+	logout();
 	lr_end_transaction("03_BuyTicket", LR_AUTO);
 	return 0;
 }

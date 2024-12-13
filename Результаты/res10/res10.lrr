@@ -1,0 +1,49 @@
+[Scenario]
+Product=LoadRunner Controller
+Version=2020.0.0.0
+Path=C:\Users\Алексей\Documents\VuGen\Scripts\VuGenHomework\VuGenHomework\Сценарии\DebugScenario.lrs
+Subject=TestScenario1
+Result_file=c:\users\алексей\documents\vugen\scripts\vugenhomework\vugenhomework\результаты\res10\res10.lrr
+Description=
+ResultName=res10
+Time_Zone=-10800
+Start_time=1734111667
+Daylight_Bias=0
+Stop_time=1734113026
+[Configuration]
+Public_local=1
+Is_mix=1
+Is_runner_file=0
+Runner_file=
+[Running_mode]
+Start_reason=By command
+Stop_reason=By a user
+[Data Collection]
+FullData=1
+[Scenario_summary]
+Scenario Type=Manual Scenario
+Goal Profile Name=Group schedule for: 02_searchflights_1_1
+Mode=Group Scheduling
+Scenario Duration=Unknown duration
+Load Behavior=Defined per scenario group
+[Groups_schedule]
+02_searchflights_1_1=SG0;ST1_1E2;R1320;SP1;
+05_deletebooking=SG0;ST1_1E2;R1320;SP1;
+06_register_1_1=SG0;ST2_1E2;R1320;SP2;
+01_login=SG0;ST1_1E2;R1320;SP1;
+04_getitenerarylist_1_1=SG0;ST1_1E2;R1320;SP1;
+03_buyticket=SG0;ST4_1E2;R1320;SP4;
+[Scripts]
+03_buyticket_1=C:\Users\Алексей\Documents\VuGen\Scripts\VuGenHomework\VuGenHomework\Скрипты\03_BuyTicket\03_BuyTicket.usr
+04_getitenerarylist_1_1_1_1_1_1=C:\Users\Алексей\Documents\VuGen\Scripts\VuGenHomework\VuGenHomework\Скрипты\04_GetItineraryList\04_GetItineraryList.usr
+01_login_1=C:\Users\Алексей\Documents\VuGen\Scripts\VuGenHomework\VuGenHomework\Скрипты\01_Login\01_Login.usr
+06_register_1_1_1=C:\Users\Алексей\Documents\VuGen\Scripts\VuGenHomework\VuGenHomework\Скрипты\06_Register\06_Register.usr
+05_deletebooking_1=C:\Users\Алексей\Documents\VuGen\Scripts\VuGenHomework\VuGenHomework\Скрипты\05_DeleteBooking\05_DeleteBooking.usr
+02_searchflights_1_1=C:\Users\Алексей\Documents\VuGen\Scripts\VuGenHomework\VuGenHomework\Скрипты\02_SearchFlight\02_SearchFlight.usr
+[Scripts_types]
+03_buyticket_1=Multi+QTWeb
+04_getitenerarylist_1_1_1_1_1_1=Multi+QTWeb
+01_login_1=Multi+QTWeb
+06_register_1_1_1=Multi+QTWeb
+05_deletebooking_1=Multi+QTWeb
+02_searchflights_1_1=Multi+QTWeb

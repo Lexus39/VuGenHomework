@@ -54,7 +54,7 @@ Action()
 		"Mode=HTML", 
 		LAST);
 	
-	lr_think_time(20);
+	lr_think_time(25);
 
 	web_add_header("Origin", 
 		"http://127.0.0.1:8090");
@@ -99,9 +99,9 @@ Action()
 	
 	lr_end_transaction("Register", LR_PASS);
 	
-	lr_think_time(5);
+	//lr_think_time(5);
 	
-	logout();
+	//logout();
 
 	lr_end_transaction("06_Register", LR_AUTO);
 	
